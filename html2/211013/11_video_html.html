@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- controls 안 써주면 재생 자체가 안 됨 -->
+    <video src="Dubrovnik - 12866.mp4" controls width="800px" height="500px"></video>
+
+    <video controls width="800px" height="500px">
+        <source src="Puppies - 69168.mp4" type="video/mp4">
+    </video>
+
+    <!-- 동영상 재생하기 전에 미리 보여지는 그림(유튜브 썸네일) -->
+    <!-- poster 속성 이용하면 된다 -->
+    <video poster="강아지1.png" controls width="800px" height="500px">
+        <source src="Puppies - 69168.mp4" type="video/mp4">
+    </video>
+
+    <!-- 웹사이트 키자마자 동영상 재생하게 하는 방법 -->
+    <!-- autoplay 옵션 이용 -->
+    <!-- 크롬에서는 절대 자동재생 안되고, 파이어폭스에서는 일정 크기? 길이? 미만의 동영상 재생 가능 -->
+    <video poster="강아지1.png" controls width="800px" height="500px" autoplay>
+        <source src="Puppies - 69168.mp4" type="video/mp4">
+    </video>
+    <!-- 음소거하면 무조건 자동재생 됨(muted) -->
+    <video poster="강아지1.png" controls width="800px" height="500px" autoplay muted>
+        <source src="Puppies - 69168.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
