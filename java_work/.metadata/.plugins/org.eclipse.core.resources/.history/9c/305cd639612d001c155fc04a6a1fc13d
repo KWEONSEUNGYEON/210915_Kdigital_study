@@ -1,0 +1,9 @@
+package bb;
+
+public class H {
+	public static void main(String[] args) {
+		int rate=3;
+		rate = 3*3.5;
+		System.out.println("rate = "+rate);
+	}
+}

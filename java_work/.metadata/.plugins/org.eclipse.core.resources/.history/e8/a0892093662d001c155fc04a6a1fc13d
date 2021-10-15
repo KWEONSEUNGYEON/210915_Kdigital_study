@@ -1,0 +1,17 @@
+package bb;
+
+public class practice01 {
+	public static void main(String[] args) {
+		//문제 1
+		int num1 = 10;
+		int num2 = 20;
+		int num3 = 30;
+		
+		System.out.println(num1=num2=num3);
+		
+		//문제 2
+		//문제 3
+		System.out.println(((25*5)+((36-4)-72))/5);
+		
+	}
+}
