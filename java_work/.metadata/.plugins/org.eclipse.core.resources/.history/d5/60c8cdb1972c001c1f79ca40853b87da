@@ -1,0 +1,9 @@
+//이클립에서는 저장하는 순간 컴파일 함
+//A.java -> A.class
+public class d {
+
+	public static void main(String[] args) {
+		System.out.println("");
+	}
+	
+}

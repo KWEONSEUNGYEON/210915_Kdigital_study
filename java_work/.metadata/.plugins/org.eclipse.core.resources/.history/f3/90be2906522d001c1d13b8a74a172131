@@ -1,0 +1,11 @@
+
+//에러가 뜰 경우 ctrl+1누르고 에러 수정
+//파일 수정했는데 적용이 안되었을 경우 src누르고 F5 새로고침하기
+package bb;
+
+public class A {
+	public static void main(String[] args) {
+		final int MAX_SIZE =100;
+		System.out.println("MAX_SIZE = "+MAX_SIZE);
+	}
+}

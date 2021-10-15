@@ -1,0 +1,9 @@
+//class명이랑 파일명은 동일해야 된다
+
+package bb;
+
+public class E {
+	public static void main(String[] args) {
+		
+	}
+}
