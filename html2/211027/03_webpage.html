@@ -35,6 +35,7 @@
             display: block;
             padding:6px 15px;
             border:2px solid rgb(255, 118, 68);
+            background-color: ivory;
             color: coral;
         }
         #main_gnb>ul>li>a:hover{
@@ -46,11 +47,19 @@
     </style>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Codystar&family=Concert+One&family=Fredoka+One&family=Lobster&family=Permanent+Marker&family=Rubik+Beastly&family=Wallpoet&display=swap');
-        h1{font-family: 'Concert One';}
+        h1{font-family: 'Concert One'; color: indianred}
     </style>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Codystar&family=Concert+One&family=Fredoka+One&family=Lobster&family=Permanent+Marker&family=Poiret+One&family=Rubik+Beastly&family=Wallpoet&display=swap');
-        h2{font-family: 'Poiret One';}
+        h2{font-family: 'Poiret One'; color: darkslategrey}
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Codystar&family=Concert+One&family=Fredoka+One&family=Lobster&family=Permanent+Marker&family=Rubik+Beastly&family=Wallpoet&display=swap');
+        h3{font-family: 'Concert One';}
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Codystar&family=Concert+One&family=Fredoka+One&family=Lobster&family=Permanent+Marker&family=Poiret+One&family=Rubik+Beastly&family=Wallpoet&display=swap');
+        address{font-family: 'Poiret One'; font-weight: bold;}
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -78,10 +87,15 @@
         #main_section>article.main_article {
             margin-bottom: 10px;
             padding:20px;
-            border: 1px solid black
+            border: 2px solid coral;
+            background-color:ivory;
+            border-radius: 10px 10px 10px 10px;
         }
         #main_section>article.main_article>h1 {
-            font-family: 고딕체;
+            font-family: Cafe24Ssurround;
+            text-align: center;
+            color: darkred;
+            
         }
     </style>
     <style>
@@ -101,8 +115,9 @@
 
             width: 100px;
             height: 35px;
-            line-height: 30px;
+            line-height: 34px;
 
+            font-family: Cafe24Ssurround;
             text-align: center;
             box-sizing : border-box;
             border:2px solid coral;
@@ -110,33 +125,81 @@
             background-color: coral;
             color: darkred;
         }
+        input:nth-of-type(1):checked~section.buttons>label:nth-of-type(1) {
+            background-color: ivory;
+            color:black;
+            border:3px solid darkred;
+        }
+        input:nth-of-type(2):checked~section.buttons>label:nth-of-type(2) {
+            background-color: ivory;
+            color:black;
+            border:3px solid darkred;
+        }
+    </style>
+    <style>
+        @font-face {
+        font-family: 'Cafe24Ssurround';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        }
+        .main_article {
+            font-family:'Cafe24Ssurround';
+            text-align: center;
+        }
     </style>
     <style>
             .item {
                 overflow: hidden;
-                padding: 20px;
-                border : 2px solid black;
+                padding: 10px;
+                border : 2px solid coral;
                 border-top:none;
+                background-color:rgb(255, 213, 180);
             }
             .thumbnail {
                 float:left;
             }
             .description {
                 float: left;
-                margin-left:20px;
+                margin-left:0px;
             }
             .description>strong {
                 display: block;
-                width: 120px;
+                width: 150px;
+                font-family: 'Cafe24Ssurround';
+                color: darkred;
             }
+            @font-face {
+                font-family: 'NEXON Lv1 Gothic OTF';
+                src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+                }
             .description>strong+p {
-                width: 120px;
+                width: 180px;
+                font-family: 'NEXON Lv1 Gothic OTF';
+                color: rgb(73, 73, 73);
             }
             .description>strong, .description>strong+p
             {
                 white-space: nowrap;
                 overflow: hidden;
                 text-overflow: ellipsis;
+            }
+    </style>
+    <style>
+        #main_footer {
+            width: 960px;
+            margin:0 auto;
+            margin-bottom: 10px;
+    
+            box-sizing: border-box;
+            padding:10px;
+            border:0;
+            background-color:rgb(255, 213, 180);
+            border-radius: 10px 10px 10px 10px;
+    
+            text-align: center;
             }
     </style>
 </head>
@@ -158,19 +221,31 @@
     <div id="content">
         <section id="main_section">
             <article class="main_article">
-                <img src="https://picsum.photos/id/30/600/400" alt="">
                 <h1>내 맘속 1위 맛집</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate accusamus temporibus labore incidunt. Esse quae ex blanditiis accusamus molestias numquam ullam placeat ab corrupti distinctio, odio nulla harum voluptatibus, unde voluptas assumenda facere sint nam natus odit, asperiores labore accusantium ea obcaecati. Labore ipsum maxime tempore quidem porro laboriosam et esse, repellendus alias id aliquid, inventore similique ullam corporis ad doloribus sequi sed dignissimos libero temporibus? Corrupti id consectetur, nemo perferendis deleniti reprehenderit debitis esse suscipit aliquam natus vitae ea rem! Et cumque optio accusamus sed placeat deleniti consequuntur adipisci vitae consectetur autem. Molestiae tempore provident quasi ea, corrupti minus.</p>
+                <img src="https://postfiles.pstatic.net/MjAyMTA2MjVfMjQ5/MDAxNjI0NTg5Mjc5NjM4.zkgRN0JiqqvDSS8n_pJa1if4wOBOuUJuaCno1jU5tb4g.M19Bcsvrp14V39WCpCGEXggcioYfQjgXcKjqFLv-xZQg.JPEG.boonco/203918510_1951425001679999_5400905479869629049_n.jpg?type=w966" width="600px" height="400px" alt="">
+                <p>
+                동양국수백과
+                <br><hr><br>
+                사이드부터 메인까지, 대구에서 아시아음식 최고로 잘하는 집.
+                </p>
             </article>
             <article class="main_article">
-                <img src="https://picsum.photos/id/431/600/400" alt="">
                 <h1>내 맘속 2위 맛집</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate accusamus temporibus labore incidunt. Esse quae ex blanditiis accusamus molestias numquam ullam placeat ab corrupti distinctio, odio nulla harum voluptatibus, unde voluptas assumenda facere sint nam natus odit, asperiores labore accusantium ea obcaecati. Labore ipsum maxime tempore quidem porro laboriosam et esse, repellendus alias id aliquid, inventore similique ullam corporis ad doloribus sequi sed dignissimos libero temporibus? Corrupti id consectetur, nemo perferendis deleniti reprehenderit debitis esse suscipit aliquam natus vitae ea rem! Et cumque optio accusamus sed placeat deleniti consequuntur adipisci vitae consectetur autem. Molestiae tempore provident quasi ea, corrupti minus.</p>
+                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODA3MTFfMjA1%2FMDAxNTMxMjk1MDQyMjQw.AYIopc304K76zj5a3lCV_t4jelBNsJ-O9lZfHuzCqLIg.TYT-pySCDPAQ0EoTXIK2STzm6pviWjSpOVQynuI6INQg.JPEG.photooinc%2FKakaoTalk_Photo_2018-07-11-16-34-38.jpeg&type=sc960_832" width="600px" height="400px" alt="">
+                <p>
+                메타피자
+                <br><hr><br>
+                넉넉한 토핑과 담백하고 쫀득한 도우의 화덕피자 맛집.
+                </p>
             </article>
             <article class="main_article">
-                <img src="https://picsum.photos/id/1060/600/400" alt="">
                 <h1>내 맘속 3위 맛집</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate accusamus temporibus labore incidunt. Esse quae ex blanditiis accusamus molestias numquam ullam placeat ab corrupti distinctio, odio nulla harum voluptatibus, unde voluptas assumenda facere sint nam natus odit, asperiores labore accusantium ea obcaecati. Labore ipsum maxime tempore quidem porro laboriosam et esse, repellendus alias id aliquid, inventore similique ullam corporis ad doloribus sequi sed dignissimos libero temporibus? Corrupti id consectetur, nemo perferendis deleniti reprehenderit debitis esse suscipit aliquam natus vitae ea rem! Et cumque optio accusamus sed placeat deleniti consequuntur adipisci vitae consectetur autem. Molestiae tempore provident quasi ea, corrupti minus.</p>
+                <img src="KakaoTalk_20211027_215647109_06.jpg" width="600px" height="400px" alt="">
+                <p>
+                카메스시
+                <br><hr><br>
+                오사카여행에서의 잊을 수 없는 맛, 이제는 갈 수 없는 곳...
+                </p>
             </article>
         </section>
         <aside id="main_aside">
@@ -182,10 +257,10 @@
             </section>
             <div class="tap_item">
                 <ul>
-                    <li>
+                    <li class="item">
                         <a href="#">
                             <div class="thumbnail">
-                                <img src="https://picsum.photos/id/1080/100/100" alt="">
+                                <img src="KakaoTalk_20211027_230243641_02.jpg" width="175px" height="160px" alt="">
                             </div>
                             <div class="description">
                                 <strong>제주맛집</strong>
@@ -193,10 +268,10 @@
                             </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="item">
                         <a href="#">
                             <div class="thumbnail">
-                                <img src="https://picsum.photos/id/1080/100/100" alt="">
+                                <img src="KakaoTalk_20211027_230243641_01.jpg" width="175px" height="160px" alt="">
                             </div>
                             <div class="description">
                                 <strong>대구맛집</strong>
@@ -204,10 +279,10 @@
                             </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="item">
                         <a href="#">
                             <div class="thumbnail">
-                                <img src="https://picsum.photos/id/1080/100/100" alt="">
+                                <img src="KakaoTalk_20211027_231035707.jpg" width="175px" height="160px" alt="">
                             </div>
                             <div class="description">
                                 <strong>카페맛집</strong>
@@ -215,10 +290,10 @@
                             </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="item">
                         <a href="#">
                             <div class="thumbnail">
-                                <img src="https://picsum.photos/id/1080/100/100" alt="">
+                                <img src="KakaoTalk_20211027_215647109_04.jpg" width="175px" height="160px" alt="">
                             </div>
                             <div class="description">
                                 <strong>숨은맛집</strong>
@@ -230,10 +305,10 @@
             </div>
             <div class="tap_item">
                 <ul>
-                    <li>
+                    <li class="item">
                         <a href="#">
                             <div class="thumbnail">
-                                <img src="https://picsum.photos/id/1080/100/100" alt="">
+                                <img src="KakaoTalk_20211027_215647109_01.jpg" width="175px" height="160px" alt="">
                             </div>
                             <div class="description">
                                 <strong>한식</strong>
@@ -241,10 +316,10 @@
                             </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="item">
                         <a href="#">
                             <div class="thumbnail">
-                                <img src="https://picsum.photos/id/1080/100/100" alt="">
+                                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEwMDFfNTEg%2FMDAxNjMzMDg2MDQ4Mzkw.Ca-F4MZP5xnAYp-Jpm_2Cmd2Udcf38C51KsGm86O2r8g.AfRz7qbrUoCLRWd5JYiJMQBzR7sxyD3Hwvg88qy4Z1Ag.JPEG.jp445566%2FIMG_1873.jpg&type=sc960_832" width="175px" height="160px" alt="">
                             </div>
                             <div class="description">
                                 <strong>분식</strong>
@@ -252,25 +327,25 @@
                             </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="item">
                         <a href="#">
                             <div class="thumbnail">
-                                <img src="https://picsum.photos/id/1080/100/100" alt="">
+                                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEwMTFfMTE2%2FMDAxNjAyNDI1MDI4MTQ2.9khF2yH_RthXTNRlTZoLP5iva0JFkotsQSDH-JNlYsAg.gkXX_ee4kkAT0KXj-YBPgyH4Zr0m3aIAgynqSk5h5asg.JPEG.lovelyjung33%2F1602425027172.jpg&type=sc960_832" width="175px" height="160px" alt="">
                             </div>
                             <div class="description">
                                 <strong>중식</strong>
-                                <p>무엇이든 재료가 풍부해야 맛있다...!</p>
+                                <p>재료가 풍부해서 맛있다...!</p>
                             </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="item">
                         <a href="#">
                             <div class="thumbnail">
-                                <img src="https://picsum.photos/id/1080/100/100" alt="">
+                                <img src="KakaoTalk_20211027_215647109_05.jpg" width="175px" height="160px" alt="">
                             </div>
                             <div class="description">
-                                <strong>아시안식</strong>
-                                <p>홈주인장이 가장 좋아하여 여러 곳을 다니다가 발견한 곳...!</p>
+                                <strong>야식</strong>
+                                <p>술안주에는 매운오돌뼈가 제격...!</p>
                             </div>
                         </a>
                     </li>
@@ -280,4 +355,11 @@
         </aside>
     </div>
 </body>
+<footer id="main_footer">
+    <h3>ETF  Enjoy Tasty Food</h3>
+    <address>
+    - - mail address- - <br>
+    ddunyeon@naver.com
+    </address>
+</footer>
 </html>
