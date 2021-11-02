@@ -1,0 +1,93 @@
+div {
+  height: 5px;
+}
+div:nth-child(30) {
+  background: hsl(180, 100%, 25.09803922%);
+}
+div:nth-child(29) {
+  background: hsl(178, 100%, 25.09803922%);
+}
+div:nth-child(28) {
+  background: hsl(176, 100%, 25.09803922%);
+}
+div:nth-child(27) {
+  background: hsl(174, 100%, 25.09803922%);
+}
+div:nth-child(26) {
+  background: hsl(172, 100%, 25.09803922%);
+}
+div:nth-child(25) {
+  background: hsl(170, 100%, 25.09803922%);
+}
+div:nth-child(24) {
+  background: hsl(168, 100%, 25.09803922%);
+}
+div:nth-child(23) {
+  background: hsl(166, 100%, 25.09803922%);
+}
+div:nth-child(22) {
+  background: hsl(164, 100%, 25.09803922%);
+}
+div:nth-child(21) {
+  background: hsl(162, 100%, 25.09803922%);
+}
+div:nth-child(20) {
+  background: hsl(160, 100%, 25.09803922%);
+}
+div:nth-child(19) {
+  background: hsl(158, 100%, 25.09803922%);
+}
+div:nth-child(18) {
+  background: hsl(156, 100%, 25.09803922%);
+}
+div:nth-child(17) {
+  background: hsl(154, 100%, 25.09803922%);
+}
+div:nth-child(16) {
+  background: hsl(152, 100%, 25.09803922%);
+}
+div:nth-child(15) {
+  background: hsl(150, 100%, 25.09803922%);
+}
+div:nth-child(14) {
+  background: hsl(148, 100%, 25.09803922%);
+}
+div:nth-child(13) {
+  background: hsl(146, 100%, 25.09803922%);
+}
+div:nth-child(12) {
+  background: hsl(144, 100%, 25.09803922%);
+}
+div:nth-child(11) {
+  background: hsl(142, 100%, 25.09803922%);
+}
+div:nth-child(10) {
+  background: hsl(140, 100%, 25.09803922%);
+}
+div:nth-child(9) {
+  background: hsl(138, 100%, 25.09803922%);
+}
+div:nth-child(8) {
+  background: hsl(136, 100%, 25.09803922%);
+}
+div:nth-child(7) {
+  background: hsl(134, 100%, 25.09803922%);
+}
+div:nth-child(6) {
+  background: hsl(132, 100%, 25.09803922%);
+}
+div:nth-child(5) {
+  background: hsl(130, 100%, 25.09803922%);
+}
+div:nth-child(4) {
+  background: hsl(128, 100%, 25.09803922%);
+}
+div:nth-child(3) {
+  background: hsl(126, 100%, 25.09803922%);
+}
+div:nth-child(2) {
+  background: hsl(124, 100%, 25.09803922%);
+}
+div:nth-child(1) {
+  background: hsl(122, 100%, 25.09803922%);
+}

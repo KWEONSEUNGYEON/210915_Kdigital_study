@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #WrapBody{display : grid;
+            grid-template-rows: 1fr 1fr 300px 1fr;
+            grid-template-columns: 200px 300px;
+            grid-template-areas: 
+            'Header Header'
+            'Navigation Navigation'
+            'Aside Section'
+            'Clear Clear'
+            'Footer Footer';
+        }
+        #Header{grid-area: Header;}
+        #Navigation{grid-area: Navigation}
+        #Aside{grid-area: Aside;}
+        #Section{grid-area: Section;}
+        #Clear{grid-area: Clear;}
+        #Footer{grid-area: Footer;}
+    </style>
+    <style>
+        #WrapBody {background: rgb(120,115,196);
+background: linear-gradient(90deg, rgba(120,115,196,1) 0%, rgba(75,97,59,1) 35%, rgba(0,212,255,1) 100%);}
+        #Aside {background-color: darkorange;}
+        #Section{background-color: deeppink;}
+    </style>
+</head>
+<body>
+    <div id="WrapBody">
+        <div id="Header">        <h1>Header</h1>     </div>
+        <div id="Navigation">        <h1>Navigation</h1>    </div>
+        <div id="Contents">
+            <div id="Aside">
+                <h1>Aside</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error ipsum aliquid inventore in culpa dolorum deleniti recusandae delectus, ex, veritatis ullam id assumenda at officiis soluta numquam distinctio? Fugiat, labore.</p>
+            </div>
+            <div id="Section">
+                <h1>Section</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, tenetur dolor? Impedit laborum fuga consequatur placeat dolorum velit cupiditate, nobis assumenda et iste, voluptas eos, officia tempore quod libero hic!</p>
+            </div>
+        </div>
+        <div id="Clear"></div>
+        <div id="Footer">   <h1>Footer</h1>     </div>
+    </div>
+
+
+
+</body>
+</html>
