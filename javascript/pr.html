@@ -1,14 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <body>
-
-    <img id="myImg">
+    <h1>당신의 띠를 상징하는 동물은 아래와 같습니다.</h1>
+    <img id="mytti">
     <script>
-        let myImage = document.getElementById('myImg')
-        let myImage2 = document.querySelector('#myImg')
         let input = prompt("태어난 연도를 입력하세요.")
-        let tti = "신유술해자축인묘진사오미"
-        myImage.src=`${tti[input%12]}.png`
+        let tti = input%12
+
+        //방법 1
+        let mytti = document.getElementById('mytti')
+        mytti.src=(tti)+".png"
+
+        //방법 2
+        switch (tti) {
+            case 0:
+                mytti.src = "0.png"
+                break;
+            case 1:
+                mytti.src = "1.png"
+                break;
+            case 2:
+                mytti.src = "2.png"
+                break;
+            case 3:
+                mytti.src = "3.png"
+                break;
+            case 4:
+                mytti.src = "4.png"
+                break;
+            case 5:
+                mytti.src = "5.png"
+                break;
+            case 6:
+                mytti.src = "6.png"
+                break;
+            case 7:
+                mytti.src = "7.png"
+                break;
+            case 8:
+                mytti.src = "8.png"
+                break;
+            case 9:
+                mytti.src = "9.png"
+                break;
+            case 10:
+                mytti.src = "10.png"
+                break;
+            case 11:
+                mytti.src = "11.png"
+                break;
+
+            default:
+                break;
+        }
     </script>
 </body>
 </html>
