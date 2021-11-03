@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        let cminput = prompt("인치를 입력하세요.")
+        console.log(Number(cminput)*2.54+"cm")
+
+        let inchinput = prompt("센치를 입력하세요.")
+        console.log((Number(inchinput)*393701)/1000000+"inch")
+
+        let cinput = prompt("원의 반지름을 입력하세요.")
+        const num = 3.14
+        console.log("원의 넓이는 "+Number(cinput*cinput)*num+", 원의 둘레는 "+Number(cinput)*2*num+"입니다.")
+    
+        let dinput = prompt("달러를 입력하세요.")
+        console.log("원화는 "+Number(dinput)*1207+"KRW입니다.")
+
+        let yinput = prompt("태어난 연도를 입력하세요.")
+        let a = "경신임계갑을병정무기"
+        let b = "신유술해자축인묘진사오미"
+        console.log(a[yinput%10]+b[yinput%12]+"년")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

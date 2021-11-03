@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+    <img id="myImg">
+    <script>
+        let myImage = document.getElementById('myImg')
+        let myImage2 = document.querySelector('#myImg')
+        let input = prompt("태어난 연도를 입력하세요.")
+        let tti = "신유술해자축인묘진사오미"
+        myImage.src=`${tti[input%12]}.png`
+    </script>
+</body>
+</html>
