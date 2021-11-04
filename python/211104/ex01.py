@@ -1,4 +1,4 @@
-# questions_8장
+# questions_8장.txt
 
 from exam import Exam
 
@@ -8,4 +8,3 @@ ex.doThree()
 ex.doFour()
 ex.doFive()
 ex.doSix()
-ex.doSeven()
