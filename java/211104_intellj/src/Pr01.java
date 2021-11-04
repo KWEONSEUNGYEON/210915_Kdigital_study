@@ -1,3 +1,5 @@
+//questions.txt
+
 import java.util.Scanner;
 
 public class Pr01 {
