@@ -4,6 +4,13 @@ public class Day {
 
     // alt + insert
 
+    @Override
+    public String toString() {
+        return "Day{" +
+                "work='" + work + '\'' +
+                '}';
+    }
+
     public String getWork() {
         return work;
     }
@@ -12,10 +19,13 @@ public class Day {
         this.work = work;
     }
 
-    public void set(String work) { this.work = work; }
+    public void set(String work) {
+        this.work = work;
+    }
 
     public String get() {
-        return work; }
+        return work;
+    }
 
     public void show() {
         if(work == null) System.out.println("없습니다.");
