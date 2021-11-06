@@ -1,3 +1,5 @@
+// questions3_String.txt
+
 import java.util.Scanner;
 
 public class Pr01 {
@@ -21,11 +23,39 @@ public class Pr01 {
         System.out.println("출력");
         System.out.println("파일명 "+name.substring(0,5));
         System.out.println("확장자 "+name.substring(6));
+        System.out.println();
 
 //        3번
-        System.out.println("1. 더하기 2. 빼기 3. 나누기 4. 곱하기 5. 나머지 6. 종료");
-        System.out.println("무엇을 하시겠습니까?");
-        String
+        int index = 0;
+        while(true) {
+            System.out.println("1. 더하기 2. 빼기 3. 나누기 4. 곱하기 5. 나머지 6. 종료");
+            System.out.println("무엇을 하시겠습니까?");
+            int select = scan.nextInt();
 
+            System.out.println("첫번째 수 ");
+            int num = scan.nextInt();
+            System.out.println("두번째 수 ");
+            int num2 = scan.nextInt();
+
+            if (select == 1) {
+                System.out.println(num + "+" + num2 + "=" + (num + num2));
+            }
+            else if (select == 2) {
+                System.out.println(num + "-" + num2 + "=" + (num - num2));
+            }
+            else if (select == 3) {
+                System.out.println(num + "/" + num2 + "=" + (num / num2));
+            }
+            else if (select == 4) {
+                System.out.println(num + "*" + num2 + "=" + (num * num2));
+            }
+            else if (select == 5) {
+                System.out.println(num + "%" + num2 + "=" + (num % num2));
+            }
+            else if (select == 6) {
+                System.out.println("종료합니다.");
+                break;
+            }
+        }
     }
 }
