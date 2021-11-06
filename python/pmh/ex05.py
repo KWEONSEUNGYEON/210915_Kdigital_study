@@ -1,3 +1,5 @@
+# 소스코드 경로 : https://wikidocs.net/35482
+
 import sys
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
