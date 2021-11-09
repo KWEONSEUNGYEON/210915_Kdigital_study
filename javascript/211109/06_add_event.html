@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="oneh1">이걸 클릭해봐~</h1>
+    <h1 id="twoh1">이 것도 클릭해봐~</h1>
+    <script>
+        let mybutton = document.querySelector('#oneh1')
+        let mybutton2 = document.querySelector('#twoh1')
+
+        //이벤트 추가 1
+        mybutton.onclick = function() {
+            this.style.color = 'red'
+        }
+        //이벤트 추가 2
+        mybutton2.addEventListener('click', function()
+        {
+            this.style.backgroundColor='springgreen'
+        })
+    </script>
+</body>
+</html>

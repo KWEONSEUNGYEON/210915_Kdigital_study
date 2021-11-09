@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let myinput = []
+        for(let i = 0; i<5; i++)
+        {
+            let num = Number(prompt("숫자입력"))
+            myinput[i] = num;
+
+            for(let j = 0; j<i; j++)
+            {
+                if(myinput[i]==myinput[j])
+                    i--;
+            }
+        }
+        for(let item of myinput)
+            console.log(item)
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

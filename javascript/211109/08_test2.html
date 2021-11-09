@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Myadd()
+        {
+            let one = document.querySelector("input:nth-of-type(1)")
+            let two = document.querySelector("input:nth-of-type(2)")
+
+            let myinput1 = [one, two]
+            let add = 0
+            for(let i in myinput1)
+                add+=Number(myinput1[i].value)
+            alert(add)
+        }
+        function Mymul()
+        {
+            let three = document.querySelector("input:nth-of-type(3)")
+            let four = document.querySelector("input:nth-of-type(4)")
+
+            let myinput2 = [three, four]
+            let mul = 1
+            for(let i in myinput2)
+                mul*=Number(myinput2[i].value)
+            alert(mul)
+        }
+        function Mydiv()
+        {
+            let five = document.querySelector("input:nth-of-type(5)").value
+            let six = document.querySelector("input:nth-of-type(6)").value
+
+            let myinput3 = [five, six]
+            let div = 1
+            for(let i in myinput3)
+                div=Number(five)/Number(six)
+            alert(div)
+        }
+        function Mysub()
+        {
+            let seven = document.querySelector("input:nth-of-type(7)").value
+            let eight = document.querySelector("input:nth-of-type(8)").value
+
+            let myinput4 = [seven, eight]
+            let sub = 0
+            for(let i in myinput4)
+                sub=Number(seven)-Number(eight)
+            alert(sub)
+        }
+    </script>
+</head>
+<body>
+    <input type="text"> +
+    <input type="text">
+    <button onclick="Myadd()">덧셈</button>
+    <br>
+    <input type="text"> ×
+    <input type="text">
+    <button onclick="Mymul()">곱셈</button>
+    <br>
+    <input type="text"> ÷
+    <input type="text">
+    <button onclick="Mydiv()">나눗셈</button>
+    <br>
+    <input type="text"> -
+    <input type="text">
+    <button onclick="Mysub()">빼기</button>
+
+</body>
+</html>

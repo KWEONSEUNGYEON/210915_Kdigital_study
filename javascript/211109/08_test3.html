@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Mymonth()
+        {
+        let mymonth  = document.querySelector("#month")
+        switch (month) {
+            case 1:
+                mymonth.src = "01.png"
+                break;
+            default:
+                break;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>태어난 월을 입력하세요.</h1>
+    <input type="text" id="month">
+    <button onclick="Mymonth()">입력</button>
+</body>
+</html>
