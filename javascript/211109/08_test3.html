@@ -8,20 +8,38 @@
     <script>
         function Mymonth()
         {
-        let mymonth  = document.querySelector("#month")
-        switch (month) {
-            case 1:
-                mymonth.src = "01.png"
-                break;
-            default:
-                break;
+            let myImg = document.querySelector("#month").value
+            switch (Number(myImg)) {
+                case 12: case 1: case 2:
+                    let myImage = document.querySelector("#p1")
+                    myImage.src = "01.png"
+                    break;
+                    case 3: case 4: case 5:
+                    let myImage2 = document.querySelector("#p2")
+                    myImage2.src = "02.png"
+                    break;
+                    case 6: case 7: case 8:
+                    let myImage3 = document.querySelector("#p3")
+                    myImage3.src = "04.png"
+                    break;
+                    case 9: case 10: case 11:
+                    let myImage4 = document.querySelector("#p4")
+                    myImage4.src = "03.png"
+                    break;
+            
+                default:
+                    break;
             }
         }
     </script>
 </head>
 <body>
-    <h1>태어난 월을 입력하세요.</h1>
+    <h1>당신이 태어난 월의 계절이미지입니다.</h1>
     <input type="text" id="month">
-    <button onclick="Mymonth()">입력</button>
+    <button onclick="Mymonth()">태어난 월의 계절이미지 보기</button>
+    <img id = "p1">
+    <img id = "p2">
+    <img id = "p3">
+    <img id = "p4">
 </body>
 </html>

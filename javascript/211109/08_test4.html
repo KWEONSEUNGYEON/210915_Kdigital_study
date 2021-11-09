@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Myinput()
+        {
+            let computer = [Math.floor(Math.random()*3+1)]
+            let user = document.querySelector("#game").value
+
+            if(user==1) { //가위인 경우
+                let myImage = document.querySelector("#u1")
+                myImage.src = "07.png"
+                if(computer==1) {
+                    let myImage = document.querySelector("#c1")
+                    myImage.src = "07.png"
+                    document.getElementById('result').innerText = "무승부!"
+                }
+                else if(computer==2) {
+                    let myImage = document.querySelector("#c1")
+                    myImage.src = "06.png"
+                    document.getElementById('result').innerText = "승!"
+                }
+                else if(computer==3) {
+                    let myImage = document.querySelector("#c1")
+                    myImage.src = "05.png"
+                    document.getElementById('result').innerText = "패!"
+                }
+            }
+            if(user==2) { //바위인 경우
+                let myImage = document.querySelector("#u1")
+                myImage.src = "05.png"
+                if(computer==1) {
+                    let myImage = document.querySelector("#c1")
+                    myImage.src = "07.png"
+                    document.getElementById('result').innerText = "승!"
+                }
+                else if(computer==2) {
+                    let myImage = document.querySelector("#c1")
+                    myImage.src = "05.png"
+                    document.getElementById('result').innerText = "무승부!"
+                }
+                else if(computer==3) {
+                    let myImage = document.querySelector("#c1")
+                    myImage.src = "06.png"
+                    document.getElementById('result').innerText = "패!"
+                }
+            }
+            if(user==3) { //보인 경우
+                let myImage = document.querySelector("#u1")
+                myImage.src = "06.png"
+                if(computer==1) {
+                    let myImage = document.querySelector("#c1")
+                    myImage.src = "07.png"
+                    document.getElementById('result').innerText = "패!"
+                }
+                else if(computer==2) {
+                    let myImage = document.querySelector("#c1")
+                    myImage.src = "05.png"
+                    document.getElementById('result').innerText = "승!"
+                }
+                else if(computer==3) {
+                    let myImage = document.querySelector("#c1")
+                    myImage.src = "06.png"
+                    document.getElementById('result').innerText = "무승부!"
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>☆가위바위보Game☆</h1>
+    <h1>선택 >> 가위 : 1 / 바위 : 2 / 보 : 3</h1>
+    <input type="text" id="game">
+    <button onclick="Myinput()">입력!</button>
+    <br>
+    <img id = "u1"><img id = "c1">
+    <h1 id="result"></h1>
+</body>
+</html>
