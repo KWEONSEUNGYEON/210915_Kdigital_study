@@ -6,14 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        let lottonumber = Math.floor(Math.random()*45+1).value
-
-        for(let i=0; i<7; i++)
+        function lotto()
         {
+            let myinput = []
+            for(let i=0; i<7; i++)
+            {
+                let lottonumber = Math.floor(Math.random()*45+1)
+                myinput[i] = Number(lottonumber);
 
+                for(let j =0; j<i; j++)
+                {
+                    if(myinput[i]==myinput[j])
+                        i--;
+                }
+            }
+            for(let item of myinput)
+                console.log(item)
+        }                   
     </script>
 </head>
 <body>
-    
+    <button onclick="lotto">로또번호뽑기</button>
 </body>
 </html>

@@ -10,61 +10,51 @@
         {
             let computer = [Math.floor(Math.random()*3+1)]
             let user = document.querySelector("#game").value
+            let myImage1 = document.querySelector("#u1")
+            let myImage2 = document.querySelector("#c1")
 
             if(user==1) { //가위인 경우
-                let myImage = document.querySelector("#u1")
-                myImage.src = "07.png"
+                myImage1.src = "07.png"
                 if(computer==1) {
-                    let myImage = document.querySelector("#c1")
-                    myImage.src = "07.png"
+                    myImage2.src = "07.png"
                     document.getElementById('result').innerText = "무승부!"
                 }
                 else if(computer==2) {
-                    let myImage = document.querySelector("#c1")
-                    myImage.src = "06.png"
+                    myImage2.src = "06.png"
                     document.getElementById('result').innerText = "승!"
                 }
                 else if(computer==3) {
-                    let myImage = document.querySelector("#c1")
-                    myImage.src = "05.png"
+                    myImage2.src = "05.png"
                     document.getElementById('result').innerText = "패!"
                 }
             }
             if(user==2) { //바위인 경우
-                let myImage = document.querySelector("#u1")
-                myImage.src = "05.png"
+                myImage1.src = "05.png"
                 if(computer==1) {
-                    let myImage = document.querySelector("#c1")
-                    myImage.src = "07.png"
+                    myImage2.src = "07.png"
                     document.getElementById('result').innerText = "승!"
                 }
                 else if(computer==2) {
-                    let myImage = document.querySelector("#c1")
-                    myImage.src = "05.png"
+                    myImage2.src = "05.png"
                     document.getElementById('result').innerText = "무승부!"
                 }
                 else if(computer==3) {
-                    let myImage = document.querySelector("#c1")
-                    myImage.src = "06.png"
+                    myImage2.src = "06.png"
                     document.getElementById('result').innerText = "패!"
                 }
             }
             if(user==3) { //보인 경우
-                let myImage = document.querySelector("#u1")
-                myImage.src = "06.png"
+                myImage1.src = "06.png"
                 if(computer==1) {
-                    let myImage = document.querySelector("#c1")
-                    myImage.src = "07.png"
+                    myImage2.src = "07.png"
                     document.getElementById('result').innerText = "패!"
                 }
                 else if(computer==2) {
-                    let myImage = document.querySelector("#c1")
-                    myImage.src = "05.png"
+                    myImage2.src = "05.png"
                     document.getElementById('result').innerText = "승!"
                 }
                 else if(computer==3) {
-                    let myImage = document.querySelector("#c1")
-                    myImage.src = "06.png"
+                    myImage2.src = "06.png"
                     document.getElementById('result').innerText = "무승부!"
                 }
             }
