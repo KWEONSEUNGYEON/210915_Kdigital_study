@@ -9,8 +9,6 @@ class MyApp(QWidget):
         self.m = Eexcel()
 
     def initui(self):
-        title = QLabel("☆평균, 총점 구하기☆", self)
-        title.move(60, 12)
         label_1 = QLabel("국어", self)
         label_1.move(30, 45)
         label_2 = QLabel("영어", self)
@@ -18,15 +16,15 @@ class MyApp(QWidget):
         label_3 = QLabel("수학", self)
         label_3.move(30, 125)
 
-        lineEdit1 = QLineEdit("입력", self)
-        lineEdit1.setFixedSize(70, 20)
-        lineEdit1.move(60, 41)
-        lineEdit2 = QLineEdit("입력", self)
-        lineEdit2.setFixedSize(70, 20)
-        lineEdit2.move(60, 81)
-        lineEdit3 = QLineEdit("입력", self)
-        lineEdit3.setFixedSize(70, 20)
-        lineEdit3.move(60, 121)
+        self.lineEdit1 = QLineEdit("입력", self)
+        self.lineEdit1.setFixedSize(70, 20)
+        self.lineEdit1.move(60, 41)
+        self.lineEdit2 = QLineEdit("입력", self)
+        self.lineEdit2.setFixedSize(70, 20)
+        self.lineEdit2.move(60, 81)
+        self.lineEdit3 = QLineEdit("입력", self)
+        self.lineEdit3.setFixedSize(70, 20)
+        self.lineEdit3.move(60, 121)
 
         btnsave = QPushButton("저장", self)
         btnsave.move(140, 40)
@@ -45,11 +43,14 @@ class MyApp(QWidget):
         self.show()
 
     def btnsavefunc(self):
-        a = self.lineEdit1.text()
-        b = self.lineEdit2.text()
-        c = self.lineEdit3.text()
+        try:
+            a = self.lineEdit1.text()
+            b = self.lineEdit2.text()
+            c = self.lineEdit3.text()
 
-        self.m.save(a,b,c)
+            self.m.save(a,b,c)
+        except Exception as e:
+            print(e)
 
     def btnloadfunc(self):
         self.m.load()
