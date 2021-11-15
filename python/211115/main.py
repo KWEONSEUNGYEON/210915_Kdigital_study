@@ -11,13 +11,14 @@ class MyApp(QMainWindow, QWidget, form_class) :
         self.setupUi(self)
         self.mex = MyExcel()
         self.initui()
+        self.signalfn()
 
+    def signalfn(self):
         self.savebtn.clicked.connect(self.savefn)
         self.loadbtn.clicked.connect(self.loadfn)
         self.createbtn.clicked.connect(self.createfn)
 
     def savefn(self):
-        try:
             kor = self.koredit.text()
             eng = self.engedit.text()
             math = self.mathedit.text()
@@ -26,8 +27,6 @@ class MyApp(QMainWindow, QWidget, form_class) :
             print('tot = ', tot)
             print('avg = ', avg)
             self.mex.savefn(kor, eng, math, tot, avg)
-        except Exception as e:
-            print(e)
 
     def loadfn(self):
         self.mex.loadfn()
@@ -38,9 +37,7 @@ class MyApp(QMainWindow, QWidget, form_class) :
     def tableView(self):
         self.ttt1.setItem(self.row, self.col, QTableWidgetItem(str(self.value)))
         print("누름")
-        self.value = koredit
-        # self.row += 1
-        self.col += 1
+        self.value += 1
         if(self.col == 4):
             self.row += 1
             self.col = 0
@@ -49,7 +46,6 @@ class MyApp(QMainWindow, QWidget, form_class) :
         print("self.row =", self.row)
 
     def initui(self):
-
         self.ttt1 = QTableWidget(self)
         self.ttt1.setRowCount(10)
         self.ttt1.setColumnCount(5)
