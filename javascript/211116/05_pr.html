@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function MyStudent(c, n, a) {
+            return {
+                count : c,
+                name : n,
+                age : a
+            }
+        }
+    </script>
+</head>
+<body>
+    번호 : <input type="text"> <br>
+    이름 : <input type="text"> <br>
+    나이 : <input type="text"> <br>
+    <br>
+    <button>등록</button>
+    <button>조회</button>
+    <button>수정</button>
+    <button>삭제</button>
+    <button>전체</button>
+    <script>
+        let count = document.querySelectorAll('input')[0]
+        let name = document.querySelectorAll('input')[1]
+        let age = document.querySelectorAll('input')[2]
+
+        let mybtn1 = document.querySelectorAll('button')[0]
+        let mybtn2 = document.querySelectorAll('button')[1]
+        let mybtn3 = document.querySelectorAll('button')[2]
+        let mybtn4 = document.querySelectorAll('button')[3]
+        let mybtn5 = document.querySelectorAll('button')[4]
+        
+        let students = []
+
+        mybtn1.onclick = function() {
+            let one = MyStudent(count.value, name.value, age.value)
+            students.push(one)
+            console.log(students)
+        }
+        mybtn2.onclick = function() { 
+            
+        }
+    </script>
+</body>
+</html>
