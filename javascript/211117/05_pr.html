@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1{display:inline-block; border:1px solid black; border-radius: 25px 25px 25px 25px; padding: 5px;}
+    </style>
+    <script>
+        function Mylotto(t, r) {
+            this.time = t
+            this.random = r
+            this.regist = function() {
+                alert(`${t}회차 등록되었습니다.` )
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="time">
+    <button id="create">로또 생성하기</button> <br>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <script>
+        let my_time = document.querySelector('#time')
+        let my_create = document.querySelector('#create')
+
+        let my_lottos = []
+
+        my_create.onclick = function() {
+            
+        }
+    </script>
+</body>
+</html>

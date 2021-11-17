@@ -1,0 +1,102 @@
+<!-- 문제풀기.txt -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        class Hospital {
+            constructor(k, n, o, nm, a) {
+                this.kind = k
+                this.name = n
+                this.owner = o
+                this.num = nm
+                this.age = a
+                this.regist = function() {
+                    alert(`${nm}번 동물은 등록되었습니다.` + `(${k}, ${n}, ${o}, ${a})`)
+                }
+            }
+        }
+        let myanimals = []       // prompt로 입력받기
+        for(let i = 0; i<0; i++) {
+            let kind = prompt("동물의 종류")
+            let name = prompt("동물의 이름")
+            let owner = prompt("동물주인의 이름")
+            let num = prompt("동물 고유번호")
+            let age = prompt("동물 나이")
+            myanimals[i] = new Hospital(kind, name, owner, num, age)
+            myanimals[i].regist()
+        }
+        console.log(myanimals)
+    </script>
+</head>
+<body>
+    동물의 종류 : <input type="text" id="kind"> <br>
+    동물의 이름 : <input type="text" id="name"> <br>
+    동물주인의 이름 : <input type="text" id="owner"> <br>
+    동물 고유번호 : <input type="text" id="num"> <br>
+    동물 나이 : <input type="text" id="age"> <br>
+    <br>
+    <button id="input">입력</button>
+    <button id="num_read">번호로 조회</button>
+    <button id="name_read">이름으로 조회</button>
+    <button id="kind_read">종류로 조회</button>
+
+    <script>
+        let my_kind = document.querySelector('#kind')
+        let my_name = document.querySelector('#name')
+        let my_owner = document.querySelector('#owner')
+        let my_num = document.querySelector('#num')
+        let my_age = document.querySelector('#age')
+
+        let my_create = document.querySelector('#input')
+        let my_num_read = document.querySelector('#num_read')
+        let my_name_read = document.querySelector('#name_read')
+        let my_kind_read = document.querySelector('#kind_read')
+
+        let animals = []
+
+        my_create.onclick = function() {
+            for(let item of animals) {
+                if(item.num == my_num.value) {
+                    alert("중복 고유번호 존재")
+                    return
+                }
+            }
+            let tempAnimal = new Hospital(my_kind.value, my_name.value, my_owner.value, my_num.value, my_age.value)
+            animals.push(tempAnimal)
+            tempAnimal.regist()
+            console.log(animals)
+        }
+
+        my_num_read.onclick = function() {
+            for(let item of animals) {
+                if(item.num == my_num.value) {
+                    alert(`조회한 결과 ${item.num}번호는 동물의 종류가 ${item.kind}이며, 이름은 ${item.name}이며, 주인은 ${item.owner}이며, 동물의 나이가 ${item.age}입니다`)
+                    return
+                }
+            }
+            console.log(animals)
+        }
+
+        my_name_read.onclick = function() {
+            for(let item of animals) {
+                if(item.name == my_name.value) {
+                    console.log(`조회한 결과 ${item.name}이름으로 동물의 종류가 ${item.kind}이며, 주인은 ${item.owner}이며, 동물의 나이가 ${item.age}입니다`)
+                }
+            }
+        }
+
+        my_kind_read.onclick = function() {
+            let k_animals = []
+            for(let item of animals) {
+                if(item.kind == my_kind.value) {
+                    k_animals.push(new Hospital(item.kind, item.name, item.owner, item.num, item.age))
+                }
+            }
+            k_animals[0].owner = "정세윤"
+            console.log(k_animals)
+            console.log(animals)
+        }
+
+    </script>
+</body>
+</html>

@@ -21,7 +21,7 @@ window.onload = function()
     let consolelog = document.querySelector('#consolelog')
 
     let students = []
-    my_create.onclick=function() {
+    my_create.onclick = function() {
         for(let item of students) {
             if(item.number == my_num.value) {
                 alert("중복 학생 존재")
