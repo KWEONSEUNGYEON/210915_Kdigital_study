@@ -35,6 +35,7 @@ class MyApp(QWidget):
             self.qtable.setItem(self.rowIndex, 2, QTableWidgetItem(math))
             self.qtable.setItem(self.rowIndex, 3, QTableWidgetItem(str(tot)))
             self.qtable.setItem(self.rowIndex, 4, QTableWidgetItem(str(avg)))
+            self.qtable.set
 
             self.se.appendrow(kor, eng, math, str(tot), str(avg))
             self.rowIndex +=1
