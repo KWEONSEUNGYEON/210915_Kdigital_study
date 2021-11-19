@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8bff7f8b-b81f-4901-8967-2a0dad579c95" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/211119.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calcu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/자바클래스 다음문제.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/review.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/Calcu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/Prc.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="217SX5r6DHswKsn9mOb35Qa3E0g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bff7f8b-b81f-4901-8967-2a0dad579c95" name="Changes" comment="" />
+      <created>1637290669265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637290669265</updated>
+    </task>
+    <servers />
+  </component>
+</project>
