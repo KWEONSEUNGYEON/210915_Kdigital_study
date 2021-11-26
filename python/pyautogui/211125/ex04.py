@@ -1,6 +1,7 @@
 import pyautogui
 import pyperclip
 
+
 pyautogui.hotkey('win', 'r')
 pyautogui.write('mspaint')
 pyautogui.hotkey('enter')
