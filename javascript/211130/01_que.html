@@ -9,7 +9,7 @@
 <body>
     <script>
 
-        let input = prompt("영문자 입력하세요.").toLowerCase //toUpperCase -> 대소문자 구분X
+        let input = prompt("영문자 입력하세요.").toUpperCase() //toLowerCase -> 대소문자 구분X
         let arr = [] //중복없이 입력했던 글자들을 모음
 
         for(let i =0; i<input.length; i++)
@@ -35,6 +35,6 @@
             result.innerHTML = `${원본}은${count}개 입니다.<br>`
             document.body.appendChild(result)
         }
-</script>
+    </script>
 </body>
 </html>
