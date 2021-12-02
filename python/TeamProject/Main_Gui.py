@@ -17,9 +17,8 @@ class Excelseat:
             ws["E"+str(idx)].hyperlink = ws["E"+str(idx)].value
             ws["E"+str(idx)].value = '바로가기'
             ws["E"+str(idx)].style = "Hyperlink"
-        wb.save(("검색결과.xlsx"))
-
         wb.save("Coupang.xlsx")
+
         wb.close()
 
     def loadrow(self):
