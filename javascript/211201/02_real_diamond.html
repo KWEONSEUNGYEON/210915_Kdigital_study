@@ -23,7 +23,6 @@
         const size = 5 //다이아몬드 크기 결정
         for(let i = 1; i<=size; i++)
         {
-            let star
             //space bar 
             for(let j = size; j>i; j--)
             {
@@ -34,7 +33,7 @@
             //star
             for(let k = 0; k<2*i-1; k++)
             {
-                star = document.createElement('span')
+                let star = document.createElement('span')
                 star.innerHTML = '*'
                 document.body.appendChild(star)
                 star.setAttribute('class', values[coloridx%7])
