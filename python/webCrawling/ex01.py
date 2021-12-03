@@ -1,20 +1,17 @@
-import requests
-from bs4 import BeautifulSoup
 
-req = requests.get('http://www.dowellcomputer.com/main.jsp')
 
-# print(req)
-# print(req.text)
 
-html = BeautifulSoup(req.text, 'html.parser')
-links = html.select('td > a')
+def doA(*args, **dictargs):
+    print(args) # tuple
+    a, b, c, d = args
+    print(a)
+    print(b)
+    print(c)
+    print(d)
+    print(dictargs)
+    for key, value in dictargs.items():
+        print('key = ',key)
+        print('value = ', value)
 
-# print(links)
-# print(len(links))
 
-for a in links:
-    # print(a)
-    if a.has_attr('href'):
-        # print(a.text)
-        if a.get('href').find('notice') != -1:
-            print(a.text)
+doA(11, 22, 'cc', 'bb', aa='aaa', bb='bbb')

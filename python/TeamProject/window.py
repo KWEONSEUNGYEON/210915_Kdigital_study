@@ -39,6 +39,7 @@ class MainWindow(QMainWindow, form_class):
     def makexl(self): # 이메일이 저장될 엑셀 새로만들기(엑셀 초기화)
         self.xl.CreateEmail_xl()
 
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     mywindow = MainWindow()

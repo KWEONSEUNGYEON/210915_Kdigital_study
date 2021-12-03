@@ -22,6 +22,7 @@ class Dialog2(QDialog):
         self.pushButton.clicked.connect(self.Search)
         self.pushButton_2.clicked.connect(self.connect)
         self.show()
+
     def alret1(self):
         QMessageBox.about(self,'오류!','이름을 확인해 주세요')
 
@@ -35,7 +36,7 @@ class Dialog2(QDialog):
                 self.alret1()
             self.Lpricecut = int(self.lineEdit_2.text())
             self.Upricecut = int(self.lineEdit_3.text())
-            if (self.Lpricecut < 0 or self.Upricecut<self.Lpricecut):
+            if (self.Lpricecut < 0 or self.Upricecut < self.Lpricecut):
                 self.alret2()
             url = "https://www.coupang.com/np/search?component=&q=" + self.search + "&channel=user"
 
@@ -74,11 +75,14 @@ class Dialog2(QDialog):
                     rate_cnt = rate_cnt.get_text()
                 else:
                     rate_cnt = "평점 없음"
-                # 주소 값
-                link = item.find("a", attrs={"class": "search-product-linksss"})['href']
+                # 링크 값
+                link = item.find("a", attrs={"class": "search-product-link"})['href']
                 link = "https://www.coupang.com" + link
+                # 이미지 값
+                imgsrc = item.find("img", attrs={"class": "search-product-wrap-img"})['src']
+                imgsrc = "https:"+ imgsrc
                 # 정렬
-                information.append([name, str(price), str(rate), rate_cnt, link])
+                information.append([name, str(price), str(rate), rate_cnt, link, imgsrc])
             information.sort(key=lambda x: int(x[1]))
             self.Co.create(information)
         except Exception as e:
@@ -96,4 +100,13 @@ class Dialog2(QDialog):
             self.tableWidget.setItem(self.rowIndex, 2, QTableWidgetItem(row[2]))
             self.tableWidget.setItem(self.rowIndex, 3, QTableWidgetItem(row[3]))
             self.tableWidget.setItem(self.rowIndex, 4, QTableWidgetItem(row[4]))
+            self.tableWidget.setItem(self.rowIndex, 5, QTableWidgetItem(row[5]))
+
             self.rowIndex += 1
+
+# try:
+#     def mycell_clicked(self, row, col):
+#         self.test.cellDoubleClicked.connect(self.mycell_clicked)
+#         print("cell???????")
+# except Exception as e:
+#     print(e)

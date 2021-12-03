@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETF</title>
+    <style>
+        * {margin:0; padding:0;}
+        body{font-family:Verdana, Geneva, Tahoma, sans-serif; background: rgb(232,255,204);
+        background: radial-gradient(circle, rgba(232,255,204,1) 0%, rgba(229,229,255,1) 100%);}
+        li{list-style: none;}
+        a{text-decoration: none;}
+        img{border:0;}
+    </style>
+    <style>
+        #main_header {
+            width:960px; margin:0 auto;
+            height: 160px;
+            position:relative;
+        }
+        #main_header>#title {
+            position: absolute;
+            left:20px; top: 30px;
+        }
+        #main_header>#main_gnb {
+            position:absolute;
+            right:0px; top: 50px;
+        }
+    </style>
+    <style>
+        #main_gnb>ul{overflow:hidden;}
+        #main_gnb>ul>li{float:left;}
+        #main_gnb>ul>li>a{
+            display: block;
+            padding:6px 15px;
+            border:2px solid rgb(255, 118, 68);
+            background-color: ivory;
+            color: coral;
+        }
+        #main_gnb>ul>li>a:hover{
+            background-color: rgb(233, 224, 198);
+            color:darkred;
+        }
+        #main_gnb>ul>li:first-child>a{ border-radius: 10px 0 0 10px;}
+        #main_gnb>ul>li:last-child>a{ border-radius: 0 10px 10px 0;}
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Codystar&family=Concert+One&family=Fredoka+One&family=Lobster&family=Permanent+Marker&family=Rubik+Beastly&family=Wallpoet&display=swap');
+        h1{font-family: 'Concert One'; color: indianred}
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Codystar&family=Concert+One&family=Fredoka+One&family=Lobster&family=Permanent+Marker&family=Poiret+One&family=Rubik+Beastly&family=Wallpoet&display=swap');
+        h2{font-family: 'Poiret One'; color: darkslategrey}
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Codystar&family=Concert+One&family=Fredoka+One&family=Lobster&family=Permanent+Marker&family=Rubik+Beastly&family=Wallpoet&display=swap');
+        h3{font-family: 'Concert One';}
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Codystar&family=Concert+One&family=Fredoka+One&family=Lobster&family=Permanent+Marker&family=Poiret+One&family=Rubik+Beastly&family=Wallpoet&display=swap');
+        address{font-family: 'Poiret One'; font-weight: bold;}
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Codystar&family=Concert+One&family=Fredoka+One&family=Lobster&family=Permanent+Marker&family=Poiret+One&family=Rubik+Beastly&family=Wallpoet&display=swap" rel="stylesheet">
+    <style>    
+    #main_header a {
+        font-family: 'Poiret One';
+        font-weight: bold;
+    }
+    </style>
+    <style>
+        #content {
+            width: 960px;
+            margin: 0 auto;
+            overflow:hidden;
+        }
+        #content>#main_section {
+           width: 750px;
+           float: left;
+        }
+        #content>#main_aside{
+            width: 200px;
+            float: right;
+        }
+        #main_section>article.main_article {
+            margin-bottom: 10px;
+            padding:20px;
+            border: 2px solid coral;
+            background-color:ivory;
+            border-radius: 10px 10px 10px 10px;
+        }
+        #main_section>article.main_article>h1 {
+            font-family: Cafe24Ssurround;
+            text-align: center;
+            color: darkred;
+            
+        }
+    </style>
+    <style>
+        input:nth-of-type(1) {display : none;}
+        input:nth-of-type(1) ~ div:nth-of-type(1) {display: none;}
+        input:nth-of-type(1):checked ~ div:nth-of-type(1) {display: block;}
+
+        input:nth-of-type(2) {display : none;}
+        input:nth-of-type(2) ~ div:nth-of-type(2) {display: none;}
+        input:nth-of-type(2):checked ~ div:nth-of-type(2) {display: block;}
+    </style>
+    <style>
+        section.buttons{overflow: hidden;}
+        section.buttons>label {
+            display: block;
+            float: left;
+
+            width: 100px;
+            height: 35px;
+            line-height: 34px;
+
+            font-family: Cafe24Ssurround;
+            text-align: center;
+            box-sizing : border-box;
+            border:2px solid coral;
+
+            background-color: coral;
+            color: darkred;
+        }
+        input:nth-of-type(1):checked~section.buttons>label:nth-of-type(1) {
+            background-color: ivory;
+            color:black;
+            border:3px solid darkred;
+        }
+        input:nth-of-type(2):checked~section.buttons>label:nth-of-type(2) {
+            background-color: ivory;
+            color:black;
+            border:3px solid darkred;
+        }
+    </style>
+    <style>
+        @font-face {
+        font-family: 'Cafe24Ssurround';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        }
+        .main_article {
+            font-family:'Cafe24Ssurround';
+            text-align: center;
+        }
+    </style>
+    <style>
+            .item {
+                overflow: hidden;
+                padding: 10px;
+                border : 2px solid coral;
+                border-top:none;
+                background-color:rgb(255, 213, 180);
+            }
+            .thumbnail {
+                float:left;
+            }
+            .description {
+                float: left;
+                margin-left:0px;
+            }
+            .description>strong {
+                display: block;
+                width: 150px;
+                font-family: 'Cafe24Ssurround';
+                color: darkred;
+            }
+            @font-face {
+                font-family: 'NEXON Lv1 Gothic OTF';
+                src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+                }
+            .description>strong+p {
+                width: 180px;
+                font-family: 'NEXON Lv1 Gothic OTF';
+                color: rgb(73, 73, 73);
+            }
+            .description>strong, .description>strong+p
+            {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+    </style>
+    <style>
+        #main_footer {
+            width: 960px;
+            margin:0 auto;
+            margin-bottom: 10px;
+    
+            box-sizing: border-box;
+            padding:10px;
+            border:0;
+            background-color:rgb(255, 213, 180);
+            border-radius: 10px 10px 10px 10px;
+    
+            text-align: center;
+            }
+    </style>
+</head>
+<body>
+    <header id="main_header">
+        <div id="title">
+            <h1>Enjoy Tasty Food</h1>
+            <h2>What do you want to eat?</h2>
+        </div>
+        <nav id="main_gnb">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Bookmark</a></li>
+                <li><a href="#">Q&A</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="content">
+        <section id="main_section">
+            <article class="main_article">
+                <h1>내 맘속 1위 맛집</h1>
+                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA4MDZfMjg3%2FMDAxNjI4MjI5ODE2Mzcz.0C8jFAIqifDEoSAqahg0WuBHzUrlw5jqqHnZBzLY3mUg.IpoQn9CQ41WRyRNlioSUNHz4VNwyA3mtiBQlTEZ4WGog.JPEG.leezm0603%2FIMG_5594.JPG&type=sc960_832" width="600px" height="600px" alt="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA4MDZfMjg3%2FMDAxNjI4MjI5ODE2Mzcz.0C8jFAIqifDEoSAqahg0WuBHzUrlw5jqqHnZBzLY3mUg.IpoQn9CQ41WRyRNlioSUNHz4VNwyA3mtiBQlTEZ4WGog.JPEG.leezm0603%2FIMG_5594.JPG&type=sc960_832">
+                <p>
+                동양국수백과
+                <br><hr><br>
+                사이드부터 메인까지, 대구에서 아시아음식 최고로 잘하는 집.
+                </p>
+            </article>
+            <article class="main_article">
+                <h1>내 맘속 2위 맛집</h1>
+                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODA3MTFfMjA1%2FMDAxNTMxMjk1MDQyMjQw.AYIopc304K76zj5a3lCV_t4jelBNsJ-O9lZfHuzCqLIg.TYT-pySCDPAQ0EoTXIK2STzm6pviWjSpOVQynuI6INQg.JPEG.photooinc%2FKakaoTalk_Photo_2018-07-11-16-34-38.jpeg&type=sc960_832" width="600px" height="500px" alt="">
+                <p>
+                메타피자
+                <br><hr><br>
+                넉넉한 토핑과 담백하고 쫀득한 도우의 화덕피자 맛집.
+                </p>
+            </article>
+            <article class="main_article">
+                <h1>내 맘속 3위 맛집</h1>
+                <img src="KakaoTalk_20211027_215647109_06.jpg" width="600px" height="600px" alt="">
+                <p>
+                카메스시
+                <br><hr><br>
+                오사카여행에서의 잊을 수 없는 맛, 이제는 갈 수 없는 곳...
+                </p>
+            </article>
+        </section>
+        <aside id="main_aside">
+            <input id="first" type="radio" name="tab" checked="checked">
+            <input id="second" type="radio" name="tab">
+            <section class="buttons">
+                <label for="first">맛집매거진</label>
+                <label for="second">골라봐</label>
+            </section>
+            <div class="tap_item">
+                <ul>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="KakaoTalk_20211027_230243641_02.jpg" width="175px" height="160px" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>제주맛집</strong>
+                                <p>한달간 제주살이하며 먹었던 현지맛집을 소개합니다.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="KakaoTalk_20211027_230243641_01.jpg" width="175px" height="160px" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>대구맛집</strong>
+                                <p>당신이 몰랐던 대구 맛집을 소개합니다.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="KakaoTalk_20211027_231035707.jpg" width="175px" height="160px" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>카페맛집</strong>
+                                <p>커피맛이 좋아 자주 가게되는 카페 맛집을 소개합니다.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="KakaoTalk_20211027_215647109_04.jpg" width="175px" height="160px" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>숨은맛집</strong>
+                                <p>여러 지역을 여행다니며 알게 된 숨은 맛집을 소개합니다.</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tap_item">
+                <ul>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="KakaoTalk_20211027_215647109_01.jpg" width="175px" height="160px" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>한식</strong>
+                                <p>집밥이 생각날 땐 이 곳...!</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEwMDFfNTEg%2FMDAxNjMzMDg2MDQ4Mzkw.Ca-F4MZP5xnAYp-Jpm_2Cmd2Udcf38C51KsGm86O2r8g.AfRz7qbrUoCLRWd5JYiJMQBzR7sxyD3Hwvg88qy4Z1Ag.JPEG.jp445566%2FIMG_1873.jpg&type=sc960_832" width="175px" height="160px" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>분식</strong>
+                                <p>1일 1떡볶이는 이 곳에서...!</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEwMTFfMTE2%2FMDAxNjAyNDI1MDI4MTQ2.9khF2yH_RthXTNRlTZoLP5iva0JFkotsQSDH-JNlYsAg.gkXX_ee4kkAT0KXj-YBPgyH4Zr0m3aIAgynqSk5h5asg.JPEG.lovelyjung33%2F1602425027172.jpg&type=sc960_832" width="175px" height="160px" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>중식</strong>
+                                <p>재료가 풍부해서 맛있다...!</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="KakaoTalk_20211027_215647109_05.jpg" width="175px" height="160px" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>야식</strong>
+                                <p>술안주에는 매운오돌뼈가 제격...!</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </aside>
+    </div>
+</body>
+<footer id="main_footer">
+    <h3>ETF  Enjoy Tasty Food</h3>
+    <address>
+    - - mail address- - <br>
+    ddunyeon@naver.com
+    </address>
+</footer>
+</html>
