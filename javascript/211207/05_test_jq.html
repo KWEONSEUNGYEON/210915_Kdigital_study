@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src ="myjq.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // $().ready(function(){}) = window.onload
+        $().ready(
+            function()
+            {
+                $('#aaa').css('color', 'red')
+                let aaa = $('#aaa')
+                // jQ의 click = js의 onclick
+                aaa.click(function(){alert('aaaa')})
+                let aaa = $('#bbb')
+                // jQ의 on = js의 addEventListener
+                bbb.on(function(){alert('bbb')})
+            })
+    </script>
+    <h1 id="aaa">Lorem, ipsum dolor.</h1>       
+    <h1 id="bbb">아아아아아</h1>       
+</body>
+</html>
