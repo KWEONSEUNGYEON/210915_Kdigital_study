@@ -10,27 +10,28 @@
             width: 30px;
             height: 30px;
             margin-left: 20px;
-            font-size: 20px;
+            font-size:20px;
         }
-        #answer, #submit, #cancel{
+        #answer,#submit,#cancel{
             width: 100px;
             height: 50px;
             font-size: 20px;
         }
         #input{
             position: fixed;
-            top: 50px;
+            top:50px;
             left: 150px;
         }
-        #time{
+        #time {
             position: fixed;
-            top: 50px;
-            left: 500px;
+            top:50px;
+            left:500px;
         }
+        
     </style>
 </head>
 <body>
-    <div style="height: 60px">
+    <div style="height:60px">
         <h1 id="output" style="margin-left:170px;"></h1>
     </div>
     <div>
@@ -53,17 +54,17 @@
     <button id="submit" style="margin-left: 20px;">제출</button>
 
     <div style="height: 60px;">
-        <h3 id="input" style="margin-left: 170px;"></h3>
-        <h5 id="time"></h5>
-
+        <h3 id="input" style="margin-left: 170px;"></h3> <!--현재까지 제출한 숫자-->
+        <h5 id="time">11</h5> <!--현재 경과 시간 표시-->
     </div>
-    <button id="answer">
-        정답은?
+
+    <button id="answer"> <!--디버깅.. 실제 정답을 확인하는 거-->
+        정답은 ?
     </button>
     <script>
         //'정답 생성'
         let output = ''
-        let array= []
+        let array = []
         let input = 0
         do {
             input = Math.floor(Math.random()*10)//0~9
@@ -72,20 +73,20 @@
                 array.push(input)
                 output+=input
             }
-        } while(array.length<3);//3글자만 뽑아냄
-
+        } while (array.length<3);//3글자만 뽑아낸다.
+        
         const buttons = document.getElementsByClassName('choiceValue')
-
+        
         function shuffleNewNumber()
         {
-            for(let i =0; i<buttons.length; i++)
+            for(let i = 0; i<buttons.length; i++)
             {
-                buttons[i].style.color = 'black'
+                buttons[i].style.color = ''
             }
 
             array = []
             input = 0
-            output = '' 
+            output = ''
             do {
             input = Math.floor(Math.random()*10)//0~9
             const idx = array.indexOf(input)
@@ -93,54 +94,58 @@
                 array.push(input)
                 output+=input
             }
-        } while(array.length<3);//3글자만 뽑아냄
+        } while (array.length<3);//3글자만 뽑아낸다.
         }
+
 
 
         let cancel = document.getElementById('cancel')
         let submit = document.getElementById('submit')
         let h1output = document.getElementById('output')
-        let h3output = document.getElementById('input')
+        let h3input = document.getElementById('input')
         let answer = document.getElementById('answer')
         let time = document.getElementById('time')
         let count = 0
         let timecount = 0
 
-
+        
         let timeCountInterval = setInterval(
             function(){
                 timecount++
                 time.innerText = timecount
-            },150)
+            }, 150
+        )
 
-        for(let i =0; i<buttons.length; i++)
+        for(let i = 0; i<buttons.length; i++)
         {
             buttons[i].addEventListener('click',
-            function() {
+            function()
+            {
                 if(h1output.innerHTML.includes(i)==false)
                 {
-                    if(h1output.innerHTML.length<3) {
-                        h1output.innerHTML += i 
+                    if(h1output.innerHTML.length<3){
+                        h1output.innerHTML += i
                     }
                 }
+
             })
         }
-        
-        cancel.addEventListener('click', 
-        function(){
+
+        cancel.addEventListener('click',function()
+        {
             h1output.innerHTML=''
             answer.innerHTML='정답은?'
         })
-        
-        answer.addEventListener('click',
-        function(){
-            this.innerHTML = '정답은' + output
+        answer.addEventListener('click', function()
+        {
+            this.innerHTML = '정답은 ' + output
         })
 
-        submit.addEventListener('click', 
-        function(){
-            
+        submit.addEventListener('click', function()
+        {
+
         })
+
     </script>
 </body>
 </html>
