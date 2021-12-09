@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0cc6a5ea-0cac-464b-a3e0-24aeb8c81ea7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/TeamProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/.idea/새 폴더 (3).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/CostomerEmail_xl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/Coupang.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/Customer_Mail.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/Dialog1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/Dialog2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/Main_Gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/account_PC.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/alert_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/dialog1.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/dialog2.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/mail2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/mainwindow.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/name_alert.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uitest2_최종/배경2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/window.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/새 폴더 (3).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CostomerEmail_xl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coupang.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer_Mail.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dialog1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dialog2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Gui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/.idea/새 폴더 (3).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/CostomerEmail_xl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/Coupang.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/Customer_Mail.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/Dialog1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/Dialog2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/Main_Gui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/alert_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/dialog1.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/dialog2.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/mail2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/mainwindow.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/name_alert.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/window.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uitest2/Uitest2/배경2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dialog1.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dialog2.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainwindow.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/window.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/배경2.jpg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="221zn8HCnN9o0if0j81XOrUTjFF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="window" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TeamProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Uitest2_최종" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Uitest2_최종/window.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.window" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cc6a5ea-0cac-464b-a3e0-24aeb8c81ea7" name="Changes" comment="" />
+      <created>1639020044112</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639020044112</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
