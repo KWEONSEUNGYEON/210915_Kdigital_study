@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        class Student {
+            constructor(이름, 성별, 번호)
+            {
+                this.이름 = 이름
+                this.성별 = 성별
+                this.번호 = 번호
+            }
+            toString() {
+                return `${this.이름}학생은 ${this.성별}학생이며, ${this.번호}번이다.`
+            }
+        }
+        
+        const students = []
+        
+        function Output()
+        {
+            let name = document.querySelector("#name").value
+            let gender = document.querySelector("#gender").value
+            let number = document.querySelector("#number").value
+
+            let sd = new Student(name, gender, number)
+            let mystudent = document.createElement('h1')
+            mystudent.innerHTML = sd.toString()
+            document.body.appendChild(mystudent)
+            students.push(sd)
+
+            if(gender=="여") {
+                mystudent.style.backgroundColor = 'black'
+                mystudent.style.color = 'pink'
+            }
+            if(gender=="남") {
+                mystudent.style.backgroundColor = 'green'
+                mystudent.style.color = 'blue'
+            }
+        }
+
+        console.log(students)
+
+        function Output2() {
+
+        }
+
+        function Reseult() {
+            
+        }
+
+    </script>
+</head>
+<body>
+    이름 : <input type="text" id="name"><bR>
+    성별 : <input type="text" id="gender"><br>
+    번호 : <input type="text" id="number"><br>
+    <br>
+    <button onclick="Output()">출력하기</button>
+    <button onclick="Output2()">순서대로 출력하기</button>
+    <button onclick="Reset()">리셋하기</button>
+</body>
+</html>
