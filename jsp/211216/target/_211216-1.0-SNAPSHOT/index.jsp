@@ -20,7 +20,13 @@
 <a href="MyServlet">MyServlet</a>
 한글나오냐..
 <form action="submit.jsp" method="post">
-    <input type ="text" name="aa" value="한글">
+    <input type="text" name="aa" value="한글">
+    <input type="submit" value="전송">
+</form>
+
+<form action="gugudan.jsp" method="post">
+    구구단<input type="text" name="gugudan"><br>
+    aaa<input type="text" value="aaa"><br>
     <input type="submit" value="전송">
 </form>
 </body>

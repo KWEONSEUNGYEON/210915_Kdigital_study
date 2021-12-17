@@ -16,6 +16,9 @@
     request.setCharacterEncoding(("utf-8"));
     String aapara = request.getParameter("aa");
     out.println(aapara);
+
+    String dan = request.getParameter("gugu");
+    out.println(dan);
 %>
 </body>
 </html>
