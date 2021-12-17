@@ -22,5 +22,8 @@
 <h1>session사용해보기</h1>
 <a href="sessionset.jsp">세션지정하기</a><br>
 <a href="sessionget.jsp">세션값확인하기</a>
+<h1>회원가입하기</h1>
+<a href="memberform.jsp">회원가입</a>
+
 </body>
 </html>
