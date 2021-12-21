@@ -20,7 +20,7 @@ class MyApp(QWidget):
         btn.move(450,250)
 
 
-       # self.dial.valueChanged.connect(self.dial.setValue) -> 라벨과 연결?
+# self.dial.valueChanged.connect(self.dial.setValue) -> 라벨과 연결?
         btn.clicked.connect(self.button_clicked)
 
     def button_clicked(self):
