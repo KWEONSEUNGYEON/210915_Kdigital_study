@@ -5,37 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54c01021-fe94-446e-b339-a2cb80e6ad88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/211206_jsp/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/211206_jsp/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211206_jsp/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/211206_jsp/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211206_jsp/src/main/webapp/a.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/211206_jsp/src/main/webapp/a.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211209/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/211209/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211209/src/main/java/web211209/AA.java" beforeDir="false" afterPath="$PROJECT_DIR$/211209/src/main/java/web211209/AA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211209/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/211209/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211209/src/main/webapp/a.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/211209/src/main/webapp/a.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211209/src/main/webapp/b.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/211209/src/main/webapp/b.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211209/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/211209/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211210/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/211210/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211210/src/main/java/aa/bb/cc/AA.java" beforeDir="false" afterPath="$PROJECT_DIR$/211210/src/main/java/aa/bb/cc/AA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211210/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/211210/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211210/src/main/webapp/a.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/211210/src/main/webapp/a.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211210/src/main/webapp/b.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/211210/src/main/webapp/b.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211213/src/main/java/com/example/m1213/AA.java" beforeDir="false" afterPath="$PROJECT_DIR$/211213/src/main/java/com/example/m1213/AA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211213/src/main/webapp/foot.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/211213/src/main/webapp/foot.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211213/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/211213/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211213/target/m1213-1.0-SNAPSHOT/foot.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/211213/target/m1213-1.0-SNAPSHOT/foot.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211213/target/m1213-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/211213/target/m1213-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211216/src/main/java/com/example/_211216/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/211216/src/main/java/com/example/_211216/MyServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211216/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/211216/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211216/src/main/webapp/submit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/211216/src/main/webapp/submit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211216/target/_211216-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/211216/target/_211216-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211216/target/_211216-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/211216/target/_211216-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211216/target/_211216-1.0-SNAPSHOT/submit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/211216/target/_211216-1.0-SNAPSHOT/submit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/.idea/artifacts/211224_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/.idea/artifacts/211224_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/211224.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/src/main/java/com/example/_211224/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/src/main/java/com/example/_211224/filter/CharSetEncoding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/src/main/java/com/example/_211224/member/MemberDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/src/main/java/com/example/_211224/member/MemberDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/src/main/webapp/error/e404.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/src/main/webapp/head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/src/main/webapp/member/memberform.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/src/main/webapp/member/memberlist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/src/main/webapp/member/memberproc.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/src/main/webapp/nav.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/target/_211224-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/target/_211224-1.0-SNAPSHOT/WEB-INF/classes/com/example/_211224/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/target/_211224-1.0-SNAPSHOT/WEB-INF/classes/com/example/_211224/filter/CharSetEncoding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/target/_211224-1.0-SNAPSHOT/WEB-INF/classes/com/example/_211224/member/MemberDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/target/_211224-1.0-SNAPSHOT/WEB-INF/classes/com/example/_211224/member/MemberDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/target/_211224-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/target/_211224-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/target/_211224-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/target/_211224-1.0-SNAPSHOT/error/e404.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/target/_211224-1.0-SNAPSHOT/head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/target/_211224-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/target/_211224-1.0-SNAPSHOT/member/memberform.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/target/_211224-1.0-SNAPSHOT/member/memberlist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/target/_211224-1.0-SNAPSHOT/member/memberproc.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/target/_211224-1.0-SNAPSHOT/nav.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/target/classes/com/example/_211224/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/target/classes/com/example/_211224/filter/CharSetEncoding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/target/classes/com/example/_211224/member/MemberDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211224/target/classes/com/example/_211224/member/MemberDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +76,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/211224" />
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.73" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.73" ALTERNATIVE_JRE_ENABLED="false">
@@ -89,6 +110,8 @@
       <option name="presentableId" value="Default" />
       <updated>1639701378242</updated>
       <workItem from="1639701379597" duration="40000" />
+      <workItem from="1640822882374" duration="7000" />
+      <workItem from="1640822910668" duration="23000" />
     </task>
     <servers />
   </component>
