@@ -47,10 +47,15 @@ select * from userTbl;
 select * from buyTbl;
 
 --1번문제
-select username 사용자명, prodname 제품명, price 가격, amount 수량, (price*amount) as 총가격 from buytbl join usertbl on buytbl.userid=usertbl.userid;
+select username 사용자명, prodname 제품명, price 가격, amount 수량, (price*amount) as 합계 from buytbl join usertbl on buytbl.userid=usertbl.userid;
 
 --2번문제
-select username 사용자명, sum(price*amount) as 총가격 from buytbl join usertbl on buytbl.userid=usertbl.userid group by username;
+select username 사용자명, sum(price*amount) as 합계 from buytbl join usertbl on buytbl.userid=usertbl.userid group by username;
 
 --3번문제
-select username 사용자명, sum(price*amount) as 총가격 from buytbl join usertbl on buytbl.userid=usertbl.userid group by username having sum(price*amount)>1000;
+select username 사용자명, sum(price*amount) as 합계 from buytbl join usertbl on buytbl.userid=usertbl.userid group by username having sum(price*amount)>1000;
+
+--4번문제
+
+
+

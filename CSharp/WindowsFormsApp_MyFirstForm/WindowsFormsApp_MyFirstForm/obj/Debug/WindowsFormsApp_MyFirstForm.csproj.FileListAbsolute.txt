@@ -1,0 +1,11 @@
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\WindowsFormsApp_MyFirstForm\WindowsFormsApp_MyFirstForm\bin\Debug\WindowsFormsApp_MyFirstForm.exe.config
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\WindowsFormsApp_MyFirstForm\WindowsFormsApp_MyFirstForm\bin\Debug\WindowsFormsApp_MyFirstForm.exe
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\WindowsFormsApp_MyFirstForm\WindowsFormsApp_MyFirstForm\bin\Debug\WindowsFormsApp_MyFirstForm.pdb
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\WindowsFormsApp_MyFirstForm\WindowsFormsApp_MyFirstForm\obj\Debug\WindowsFormsApp_MyFirstForm.csproj.AssemblyReference.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\WindowsFormsApp_MyFirstForm\WindowsFormsApp_MyFirstForm\obj\Debug\WindowsFormsApp_MyFirstForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\WindowsFormsApp_MyFirstForm\WindowsFormsApp_MyFirstForm\obj\Debug\WindowsFormsApp_MyFirstForm.Properties.Resources.resources
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\WindowsFormsApp_MyFirstForm\WindowsFormsApp_MyFirstForm\obj\Debug\WindowsFormsApp_MyFirstForm.csproj.GenerateResource.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\WindowsFormsApp_MyFirstForm\WindowsFormsApp_MyFirstForm\obj\Debug\WindowsFormsApp_MyFirstForm.csproj.CoreCompileInputs.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\WindowsFormsApp_MyFirstForm\WindowsFormsApp_MyFirstForm\obj\Debug\WindowsFormsApp_MyFirstForm.exe
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\WindowsFormsApp_MyFirstForm\WindowsFormsApp_MyFirstForm\obj\Debug\WindowsFormsApp_MyFirstForm.pdb
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\WindowsFormsApp_MyFirstForm\WindowsFormsApp_MyFirstForm\obj\Debug\WindowsFormsApp_MyFirstForm.Form1.resources
