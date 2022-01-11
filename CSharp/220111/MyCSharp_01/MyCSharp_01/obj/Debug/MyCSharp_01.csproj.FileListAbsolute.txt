@@ -1,0 +1,8 @@
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\MyCSharp_01\bin\Debug\MyCSharp_01.exe.config
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\MyCSharp_01\bin\Debug\MyCSharp_01.exe
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\MyCSharp_01\bin\Debug\MyCSharp_01.pdb
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\MyCSharp_01\obj\Debug\MyCSharp_01.csproj.AssemblyReference.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\MyCSharp_01\obj\Debug\MyCSharp_01.csproj.SuggestedBindingRedirects.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\MyCSharp_01\obj\Debug\MyCSharp_01.csproj.CoreCompileInputs.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\MyCSharp_01\obj\Debug\MyCSharp_01.exe
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\MyCSharp_01\obj\Debug\MyCSharp_01.pdb
