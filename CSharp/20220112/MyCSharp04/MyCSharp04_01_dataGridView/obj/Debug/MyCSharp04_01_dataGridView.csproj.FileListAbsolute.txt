@@ -1,0 +1,13 @@
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220112\MyCSharp04\MyCSharp04_01_dataGridView\bin\Debug\MyCSharp04_01_dataGridView.exe.config
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220112\MyCSharp04\MyCSharp04_01_dataGridView\bin\Debug\MyCSharp04_01_dataGridView.exe
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220112\MyCSharp04\MyCSharp04_01_dataGridView\bin\Debug\MyCSharp04_01_dataGridView.pdb
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220112\MyCSharp04\MyCSharp04_01_dataGridView\obj\Debug\MyCSharp04_01_dataGridView.csproj.SuggestedBindingRedirects.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220112\MyCSharp04\MyCSharp04_01_dataGridView\obj\Debug\MyCSharp04_01_dataGridView.Form1.resources
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220112\MyCSharp04\MyCSharp04_01_dataGridView\obj\Debug\MyCSharp04_01_dataGridView.Form2.resources
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220112\MyCSharp04\MyCSharp04_01_dataGridView\obj\Debug\MyCSharp04_01_dataGridView.MyControl1.resources
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220112\MyCSharp04\MyCSharp04_01_dataGridView\obj\Debug\MyCSharp04_01_dataGridView.Properties.Resources.resources
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220112\MyCSharp04\MyCSharp04_01_dataGridView\obj\Debug\MyCSharp04_01_dataGridView.UserControl1.resources
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220112\MyCSharp04\MyCSharp04_01_dataGridView\obj\Debug\MyCSharp04_01_dataGridView.csproj.GenerateResource.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220112\MyCSharp04\MyCSharp04_01_dataGridView\obj\Debug\MyCSharp04_01_dataGridView.csproj.CoreCompileInputs.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220112\MyCSharp04\MyCSharp04_01_dataGridView\obj\Debug\MyCSharp04_01_dataGridView.exe
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220112\MyCSharp04\MyCSharp04_01_dataGridView\obj\Debug\MyCSharp04_01_dataGridView.pdb

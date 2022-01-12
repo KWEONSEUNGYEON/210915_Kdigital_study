@@ -1,0 +1,11 @@
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsAppStart\bin\Debug\WindowsFormsAppStart.exe.config
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsAppStart\bin\Debug\WindowsFormsAppStart.exe
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsAppStart\bin\Debug\WindowsFormsAppStart.pdb
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsAppStart\obj\Debug\WindowsFormsAppStart.csproj.AssemblyReference.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsAppStart\obj\Debug\WindowsFormsAppStart.csproj.SuggestedBindingRedirects.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsAppStart\obj\Debug\WindowsFormsAppStart.Form1.resources
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsAppStart\obj\Debug\WindowsFormsAppStart.Properties.Resources.resources
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsAppStart\obj\Debug\WindowsFormsAppStart.csproj.GenerateResource.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsAppStart\obj\Debug\WindowsFormsAppStart.csproj.CoreCompileInputs.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsAppStart\obj\Debug\WindowsFormsAppStart.exe
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsAppStart\obj\Debug\WindowsFormsAppStart.pdb

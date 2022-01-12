@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "53b10a8a-3c21-49a6-a036-cc4efc2cbe53": {
+      "ProjectGuid": "53b10a8a-3c21-49a6-a036-cc4efc2cbe53",
+      "DisplayName": "MyCSharp_01",
+      "ColorIndex": 0
+    },
+    "d0840f0b-d57f-4c66-82d1-082e515cb19a": {
+      "ProjectGuid": "d0840f0b-d57f-4c66-82d1-082e515cb19a",
+      "DisplayName": "MyCSharp_02",
+      "ColorIndex": 1
+    },
+    "229b03f0-c82f-4bc8-b892-c3e35c272218": {
+      "ProjectGuid": "229b03f0-c82f-4bc8-b892-c3e35c272218",
+      "DisplayName": "WindowsFormsAppLoginForm",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "기타 파일",
+      "ColorIndex": -1
+    },
+    "6c6d5801-8d07-44a9-b702-f8c8e4c7917e": {
+      "ProjectGuid": "6c6d5801-8d07-44a9-b702-f8c8e4c7917e",
+      "DisplayName": "WindowsFormsAppLoginForm",
+      "ColorIndex": 3
+    },
+    "1922f93d-0d0a-4048-900c-a140cc3fbb5c": {
+      "ProjectGuid": "1922f93d-0d0a-4048-900c-a140cc3fbb5c",
+      "DisplayName": "MyCSharp_01_last_console",
+      "ColorIndex": 4
+    },
+    "a8f00b97-a2ad-4777-8da3-452692f368a9": {
+      "ProjectGuid": "a8f00b97-a2ad-4777-8da3-452692f368a9",
+      "DisplayName": "WindowsFormsAppStart",
+      "ColorIndex": 5
+    },
+    "abcf0501-365f-4cf4-8b2c-54673580f6df": {
+      "ProjectGuid": "abcf0501-365f-4cf4-8b2c-54673580f6df",
+      "DisplayName": "MyCSharp_01_lotto",
+      "ColorIndex": 6
+    },
+    "e0f9d111-c68d-4ea3-8615-0472ff472d4f": {
+      "ProjectGuid": "e0f9d111-c68d-4ea3-8615-0472ff472d4f",
+      "DisplayName": "WindowsFormsApplotto",
+      "ColorIndex": 7
+    }
+  },
+  "NextColorIndex": 8
+}

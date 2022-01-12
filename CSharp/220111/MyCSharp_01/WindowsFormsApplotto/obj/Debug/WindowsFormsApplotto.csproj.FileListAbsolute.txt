@@ -1,0 +1,10 @@
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsApplotto\bin\Debug\WindowsFormsApplotto.exe.config
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsApplotto\bin\Debug\WindowsFormsApplotto.exe
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsApplotto\bin\Debug\WindowsFormsApplotto.pdb
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsApplotto\obj\Debug\WindowsFormsApplotto.csproj.SuggestedBindingRedirects.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsApplotto\obj\Debug\WindowsFormsApplotto.Form1.resources
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsApplotto\obj\Debug\WindowsFormsApplotto.Properties.Resources.resources
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsApplotto\obj\Debug\WindowsFormsApplotto.csproj.GenerateResource.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsApplotto\obj\Debug\WindowsFormsApplotto.csproj.CoreCompileInputs.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsApplotto\obj\Debug\WindowsFormsApplotto.exe
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\220111\MyCSharp_01\WindowsFormsApplotto\obj\Debug\WindowsFormsApplotto.pdb
