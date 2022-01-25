@@ -197,7 +197,7 @@
         SUVORK5CYII=
 </value>
   </data>
-  <data name="button5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="button_out.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAmtJREFUSEvt
         lk9IFVEYxd+bpwhGEhQuwmrTyugPbspWhhJEi8IIKqtV2D5EF+0jt9Yq2tYiUDRyES0iMlJCiqRNrcKs
@@ -213,7 +213,7 @@
         Ktoy6kzPmNupUFgFLrW13Yrbc5wAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="button4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="button_in.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAodJREFUSEvV
         1kmoTmEcx/HXTIiLzENZWLlEkmIjKaxlw46NlKwoJZsrlIQiRexNUaYFpRAZImROGSIyZJ6H7/fxPhzX
@@ -231,14 +231,44 @@
   </data>
   <data name="button6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAFjSURBVEhL7da5SgRBEMbx9UA8H8JEURQFX0BUPMBFEMyNfA5D30IQIyNz8QYNjTww1AfR/ydT
-        0I7VZWcT7Hzwg9myttptZobutGk6s1jLWMQALLpWzesVzSrKKb7+cQUtOIibqhY5QZgZeF/0rGOrVotM
-        IZtleF/y7Fe8v3k0Oxtb+AmHGba16cKqeb2iWcULH/988qNh9YVVy0Wz2oX/pLGFF6CmZxxlPEI9XexU
-        1w/weuUF6plHNv24hhoj+sdGMQYbHLmEZofRG2kFexmbGIFlGKp5vbKK9BWbzRC2cZCxi3FYJqCa1yua
-        pZlhtB138LYr9Qb9am31e1WL3CLcaru5SqQ3V4nw5rLHqUT6OJUoeo7vYYPrzqEe+6xr1dKelGYVL9w7
-        b67eW9iOPh84y9AzrJ4N2NHnFV6vfEI90whTcti7gA56pYe9aAd/Rb98KUOHtj5Y9B6eg9crk2jTVDqd
-        b/TlJ9O+eCdbAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAWNJREFUSEvt
+        1rlKBEEQxvH1QDwfwkRRFAVfQFQ8wEUQzI18DkPfQhAjI3PxBg2NPDDUB9H/J1PQjtVlZxPsfPCD2bK2
+        2m1mhu60aTqzWMtYxAAsulbN6xXNKsopvv5xBS04iJuqFjlBmBl4X/SsY6tWi0whm2V4X/LsV7y/eTQ7
+        G1v4CYcZtrXpwqp5vaJZxQsf/3zyo2H1hVXLRbPahf+ksYUXoKZnHGU8Qj1d7FTXD/B65QXqmUc2/biG
+        GiP6x0YxBhscuYRmh9EbaQV7GZsYgWUYqnm9sor0FZvNELZxkLGLcVgmoJrXK5qlmWG0HXfwtiv1Bv1q
+        bfV7VYvcItxqu7lKpDdXifDmssepRPo4lSh6ju9hg+vOoR77rGvV0p6UZhUv3Dtvrt5b2I4+HzjL0DOs
+        ng3Y0ecVXq98Qj3TCFNy2LuADnqlh71oB39Fv3wpQ4e2Plj0Hp6D1yuTaNNUOp1v9OUn0754J1sAAAAA
+        SUVORK5CYII=
 </value>
   </data>
+  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="studyRoomBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>183, 17</value>
+  </metadata>
+  <metadata name="studyRoomBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>379, 17</value>
+  </metadata>
+  <metadata name="studyRoomBindingSource2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>581, 17</value>
+  </metadata>
+  <metadata name="studyRoomBindingSource3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>783, 17</value>
+  </metadata>
+  <metadata name="studyRoomBindingSource4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>985, 17</value>
+  </metadata>
+  <metadata name="RegisDate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="RegisTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="studyRoomBindingSource5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1273, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>54</value>
+  </metadata>
 </root>

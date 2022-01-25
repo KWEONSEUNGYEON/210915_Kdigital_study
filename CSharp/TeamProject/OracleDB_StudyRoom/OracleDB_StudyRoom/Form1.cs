@@ -17,5 +17,14 @@ namespace OracleDB_StudyRoom
             InitializeComponent();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            new Form2().Show();
+        }
     }
 }

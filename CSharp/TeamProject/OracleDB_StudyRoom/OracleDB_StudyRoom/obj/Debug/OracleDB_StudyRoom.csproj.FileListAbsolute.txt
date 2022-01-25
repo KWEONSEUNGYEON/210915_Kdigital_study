@@ -1,11 +1,6 @@
-C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\TeamProject\OracleDB_StudyRoom\OracleDB_StudyRoom\bin\Debug\OracleDB_StudyRoom.exe.config
-C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\TeamProject\OracleDB_StudyRoom\OracleDB_StudyRoom\bin\Debug\OracleDB_StudyRoom.exe
-C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\TeamProject\OracleDB_StudyRoom\OracleDB_StudyRoom\bin\Debug\OracleDB_StudyRoom.pdb
-C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\TeamProject\OracleDB_StudyRoom\OracleDB_StudyRoom\obj\Debug\OracleDB_StudyRoom.csproj.AssemblyReference.cache
 C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\TeamProject\OracleDB_StudyRoom\OracleDB_StudyRoom\obj\Debug\OracleDB_StudyRoom.csproj.SuggestedBindingRedirects.cache
 C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\TeamProject\OracleDB_StudyRoom\OracleDB_StudyRoom\obj\Debug\OracleDB_StudyRoom.Form1.resources
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\TeamProject\OracleDB_StudyRoom\OracleDB_StudyRoom\obj\Debug\OracleDB_StudyRoom.Form2.resources
 C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\TeamProject\OracleDB_StudyRoom\OracleDB_StudyRoom\obj\Debug\OracleDB_StudyRoom.Properties.Resources.resources
 C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\TeamProject\OracleDB_StudyRoom\OracleDB_StudyRoom\obj\Debug\OracleDB_StudyRoom.csproj.GenerateResource.cache
 C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\TeamProject\OracleDB_StudyRoom\OracleDB_StudyRoom\obj\Debug\OracleDB_StudyRoom.csproj.CoreCompileInputs.cache
-C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\TeamProject\OracleDB_StudyRoom\OracleDB_StudyRoom\obj\Debug\OracleDB_StudyRoom.exe
-C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\TeamProject\OracleDB_StudyRoom\OracleDB_StudyRoom\obj\Debug\OracleDB_StudyRoom.pdb
