@@ -1,0 +1,15 @@
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220126\AfterProjectPresentation\AfterProjectPresentation\bin\Debug\AfterProjectPresentation.exe.config
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220126\AfterProjectPresentation\AfterProjectPresentation\bin\Debug\AfterProjectPresentation.exe
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220126\AfterProjectPresentation\AfterProjectPresentation\bin\Debug\AfterProjectPresentation.pdb
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220126\AfterProjectPresentation\AfterProjectPresentation\obj\Debug\AfterProjectPresentation.csproj.AssemblyReference.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220126\AfterProjectPresentation\AfterProjectPresentation\obj\Debug\AfterProjectPresentation.csproj.SuggestedBindingRedirects.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220126\AfterProjectPresentation\AfterProjectPresentation\obj\Debug\AfterProjectPresentation.Form1.resources
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220126\AfterProjectPresentation\AfterProjectPresentation\obj\Debug\AfterProjectPresentation.Properties.Resources.resources
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220126\AfterProjectPresentation\AfterProjectPresentation\obj\Debug\AfterProjectPresentation.csproj.GenerateResource.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220126\AfterProjectPresentation\AfterProjectPresentation\obj\Debug\AfterProjectPresentation.csproj.CoreCompileInputs.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220126\AfterProjectPresentation\AfterProjectPresentation\obj\Debug\AfterProjectPresentation.exe
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220126\AfterProjectPresentation\AfterProjectPresentation\obj\Debug\AfterProjectPresentation.pdb
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220126\AfterProjectPresentation\AfterProjectPresentation\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220126\AfterProjectPresentation\AfterProjectPresentation\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220126\AfterProjectPresentation\AfterProjectPresentation\obj\Debug\AfterProjectPresentation.csproj.CopyComplete
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220126\AfterProjectPresentation\AfterProjectPresentation\obj\Debug\AfterProjectPresentation.Form2.resources

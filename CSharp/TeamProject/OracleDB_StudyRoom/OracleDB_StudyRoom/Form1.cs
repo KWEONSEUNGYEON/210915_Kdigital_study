@@ -15,16 +15,26 @@ namespace OracleDB_StudyRoom
         public Form1()
         {
             InitializeComponent();
+            DataManager.selectQuery();
+            refreshScreen();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        void refreshScreen()
         {
-            Dispose();
-        }
+            dataGridView_studyroom.DataSource = null;
+            try
+            {
+                if(DataManager.rooms.Count > 0)
+                {
 
-        private void button6_Click(object sender, EventArgs e)
-        {
-            new Form2().Show();
+                }    
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
         }
     }
 }
