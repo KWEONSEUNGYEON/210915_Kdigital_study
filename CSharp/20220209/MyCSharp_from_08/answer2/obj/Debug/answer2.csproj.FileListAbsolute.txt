@@ -1,0 +1,11 @@
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220209\MyCSharp_from_08\answer2\bin\Debug\answer2.exe.config
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220209\MyCSharp_from_08\answer2\bin\Debug\answer2.exe
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220209\MyCSharp_from_08\answer2\bin\Debug\answer2.pdb
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220209\MyCSharp_from_08\answer2\obj\Debug\answer2.csproj.AssemblyReference.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220209\MyCSharp_from_08\answer2\obj\Debug\answer2.csproj.SuggestedBindingRedirects.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220209\MyCSharp_from_08\answer2\obj\Debug\answer2.Form_myGame.resources
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220209\MyCSharp_from_08\answer2\obj\Debug\answer2.Properties.Resources.resources
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220209\MyCSharp_from_08\answer2\obj\Debug\answer2.csproj.GenerateResource.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220209\MyCSharp_from_08\answer2\obj\Debug\answer2.csproj.CoreCompileInputs.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220209\MyCSharp_from_08\answer2\obj\Debug\answer2.exe
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\20220209\MyCSharp_from_08\answer2\obj\Debug\answer2.pdb

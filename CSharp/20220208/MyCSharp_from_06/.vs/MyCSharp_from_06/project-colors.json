@@ -15,7 +15,17 @@
       "ProjectGuid": "aaff8871-b41d-4e73-a4c7-188283816c58",
       "DisplayName": "MyCSharp_from_06",
       "ColorIndex": 1
+    },
+    "7b2abafb-0df4-4249-b835-931dd6ebd04f": {
+      "ProjectGuid": "7b2abafb-0df4-4249-b835-931dd6ebd04f",
+      "DisplayName": "MyCSharp_from_06_02",
+      "ColorIndex": 2
+    },
+    "f142a2aa-1e20-402d-9a2a-0dc9ef3f9e9e": {
+      "ProjectGuid": "f142a2aa-1e20-402d-9a2a-0dc9ef3f9e9e",
+      "DisplayName": "MyCSharp_from_06_03",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 4
 }

@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a981772d-4e11-42ea-b9ff-7dfcb342b019": {
+      "ProjectGuid": "a981772d-4e11-42ea-b9ff-7dfcb342b019",
+      "DisplayName": "MyCSharp_from_08",
+      "ColorIndex": 0
+    },
+    "2fe318f5-195f-4486-9094-a2d744f518a5": {
+      "ProjectGuid": "2fe318f5-195f-4486-9094-a2d744f518a5",
+      "DisplayName": "answer2",
+      "ColorIndex": 1
+    },
+    "544ae313-bedf-4c51-8501-c3e601feec31": {
+      "ProjectGuid": "544ae313-bedf-4c51-8501-c3e601feec31",
+      "DisplayName": "MyCSharp_chap08_01",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
