@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace MyCSharp_Chap08
 {
-    public class MySquare
+    public class BankAccount
     {
-        public int this[int i]
-        {
-            get { return i*i; }
-        }
+        public string name { get; set; } //고객명
+        public int deposit { get; set; } //잔액
     }
 }

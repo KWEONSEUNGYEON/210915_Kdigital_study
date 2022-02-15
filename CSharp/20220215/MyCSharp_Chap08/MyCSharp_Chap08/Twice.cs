@@ -11,7 +11,7 @@ namespace MyCSharp_Chap08
         public int this[int i]
         {
             get { return i*2; }
-            set { System.Windows.Forms.MessageBox.Show(i+"값을 set함.(실제로 반영 안 됨)");}
+            set { System.Windows.Forms.MessageBox.Show(i+"값을 set함.(실제로 반영 안 됨)"); }
         }
     }
 }

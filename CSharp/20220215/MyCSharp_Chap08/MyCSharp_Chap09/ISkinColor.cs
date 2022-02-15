@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyCSharp_Chap08
+namespace MyCSharp_Chap09
 {
-    public class MySquare
+    public interface ISkinColor
     {
-        public int this[int i]
-        {
-            get { return i*i; }
-        }
+        void showColor();//캐릭터의 스킨색깔
     }
 }
