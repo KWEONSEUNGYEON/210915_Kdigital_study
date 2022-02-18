@@ -16,17 +16,16 @@ namespace MyCSharp_Chap10
         {
             InitializeComponent();
         }
-
         public Form3(ISubject sub)
         {
             InitializeComponent();
             sub.registerObserver(this);
         }
 
+        //update메소드를 폼별로 조금씩 다르게 구현함
         public void update(string value)
         {
-            textBox1.Text = value+"2번째폼"; 
-
+            textBox1.Text = value + "2번째폼";
         }
     }
 }

@@ -5,7 +5,12 @@
       "ProjectGuid": "1dd9ef06-d381-4eb7-bbd6-f99a933987b1",
       "DisplayName": "MyCSharp_Chap10",
       "ColorIndex": 0
+    },
+    "fe9398a6-00a9-4005-9075-2ec8d3d97834": {
+      "ProjectGuid": "fe9398a6-00a9-4005-9075-2ec8d3d97834",
+      "DisplayName": "MyCSharp_Chap10",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
