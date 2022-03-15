@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fd339293-49ef-4e69-8889-dc2712685a20": {
+      "ProjectGuid": "fd339293-49ef-4e69-8889-dc2712685a20",
+      "DisplayName": "myCarManager",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -15,6 +15,7 @@ namespace myCarManager
         public MainForm()
         {
             InitializeComponent();
+            dataGridView_parkingManager.DataSource = DataManager.Cars;
         }
 
         private void timer_now_Tick(object sender, EventArgs e)
