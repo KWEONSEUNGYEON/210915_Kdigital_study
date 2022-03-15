@@ -1,0 +1,11 @@
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\myCarManagerProject\myCarManager\myCarManager\bin\Debug\myCarManager.exe.config
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\myCarManagerProject\myCarManager\myCarManager\bin\Debug\myCarManager.exe
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\myCarManagerProject\myCarManager\myCarManager\bin\Debug\myCarManager.pdb
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\myCarManagerProject\myCarManager\myCarManager\obj\Debug\myCarManager.csproj.AssemblyReference.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\myCarManagerProject\myCarManager\myCarManager\obj\Debug\myCarManager.csproj.SuggestedBindingRedirects.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\myCarManagerProject\myCarManager\myCarManager\obj\Debug\myCarManager.MainForm.resources
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\myCarManagerProject\myCarManager\myCarManager\obj\Debug\myCarManager.Properties.Resources.resources
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\myCarManagerProject\myCarManager\myCarManager\obj\Debug\myCarManager.csproj.GenerateResource.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\myCarManagerProject\myCarManager\myCarManager\obj\Debug\myCarManager.csproj.CoreCompileInputs.cache
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\myCarManagerProject\myCarManager\myCarManager\obj\Debug\myCarManager.exe
+C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\myCarManagerProject\myCarManager\myCarManager\obj\Debug\myCarManager.pdb
