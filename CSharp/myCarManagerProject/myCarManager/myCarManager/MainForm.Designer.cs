@@ -41,6 +41,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button_parkingSpot_check = new System.Windows.Forms.Button();
             this.button_refresh = new System.Windows.Forms.Button();
             this.button_delete = new System.Windows.Forms.Button();
             this.button_add = new System.Windows.Forms.Button();
@@ -72,7 +73,7 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(26, 23);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(393, 201);
+            this.groupBox1.Size = new System.Drawing.Size(411, 201);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "주차/출차";
@@ -85,6 +86,7 @@
             this.button_parkingRemove.TabIndex = 9;
             this.button_parkingRemove.Text = "출차";
             this.button_parkingRemove.UseVisualStyleBackColor = true;
+            this.button_parkingRemove.Click += new System.EventHandler(this.button_parkingRemove_Click);
             // 
             // button_parkingAdd
             // 
@@ -94,6 +96,7 @@
             this.button_parkingAdd.TabIndex = 8;
             this.button_parkingAdd.Text = "주차";
             this.button_parkingAdd.UseVisualStyleBackColor = true;
+            this.button_parkingAdd.Click += new System.EventHandler(this.button_parkingAdd_Click);
             // 
             // textBox_phoneNumber
             // 
@@ -161,6 +164,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.button_parkingSpot_check);
             this.groupBox2.Controls.Add(this.button_refresh);
             this.groupBox2.Controls.Add(this.button_delete);
             this.groupBox2.Controls.Add(this.button_add);
@@ -174,6 +178,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "주차 공간 현황 관리";
             // 
+            // button_parkingSpot_check
+            // 
+            this.button_parkingSpot_check.Location = new System.Drawing.Point(514, 60);
+            this.button_parkingSpot_check.Name = "button_parkingSpot_check";
+            this.button_parkingSpot_check.Size = new System.Drawing.Size(139, 40);
+            this.button_parkingSpot_check.TabIndex = 6;
+            this.button_parkingSpot_check.Text = "주차 자리 보기";
+            this.button_parkingSpot_check.UseVisualStyleBackColor = true;
+            this.button_parkingSpot_check.Click += new System.EventHandler(this.button_parkingSpot_check_Click);
+            // 
             // button_refresh
             // 
             this.button_refresh.Location = new System.Drawing.Point(349, 150);
@@ -182,6 +196,7 @@
             this.button_refresh.TabIndex = 5;
             this.button_refresh.Text = "전체 갱신";
             this.button_refresh.UseVisualStyleBackColor = true;
+            this.button_refresh.Click += new System.EventHandler(this.button_refresh_Click);
             // 
             // button_delete
             // 
@@ -209,6 +224,7 @@
             this.button_selected_lookUp.TabIndex = 2;
             this.button_selected_lookUp.Text = "해당 공간 조회";
             this.button_selected_lookUp.UseVisualStyleBackColor = true;
+            this.button_selected_lookUp.Click += new System.EventHandler(this.button_selected_lookUp_Click);
             // 
             // textBox_parkingSpot_lookUp
             // 
@@ -245,6 +261,7 @@
             this.dataGridView_parkingManager.RowTemplate.Height = 30;
             this.dataGridView_parkingManager.Size = new System.Drawing.Size(1076, 190);
             this.dataGridView_parkingManager.TabIndex = 0;
+            this.dataGridView_parkingManager.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_parkingManager_CellClick);
             // 
             // listBox_logPrint
             // 
@@ -318,6 +335,7 @@
         private System.Windows.Forms.TextBox textBox_parkingSpot_lookUp;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DataGridView dataGridView_parkingManager;
+        private System.Windows.Forms.Button button_parkingSpot_check;
     }
 }
 

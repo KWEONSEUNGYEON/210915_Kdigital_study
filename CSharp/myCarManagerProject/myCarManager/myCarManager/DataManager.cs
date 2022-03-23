@@ -53,6 +53,7 @@ namespace myCarManager
                 PrintLog(ex.StackTrace);
             }
         }
+
         public static void PrintLog(string contents)
         {
             //폴더 명이 ParkingHistory인 것을 찾는 중
@@ -66,6 +67,46 @@ namespace myCarManager
             using(StreamWriter Writer = new StreamWriter("ParkingHistory\\ParkingHistory.txt", true))
             {
                 Writer.WriteLine(contents);
+            }
+        }
+
+        internal static bool Save(string query, int parkingSpot, out string contents)
+        {
+            DBHelper.selectQuery(parkingSpot);
+            contents = "";
+            if (query == "insert")
+                return DBInsert(parkingSpot, ref contents);
+            else
+                return DBDelete(parkingSpot, ref contents);
+        }
+
+        private static bool DBDelete(int parkingSpot, ref string contents)
+        {
+            if(DBHelper.dt.Rows.Count != 0)
+            {
+                DBHelper.deleteQuery(parkingSpot);
+                contents = $"주차공간 {parkingSpot}이/가 삭제되었습니다.";
+                return true;
+            }
+            else
+            {
+                contents = $"{parkingSpot} 번호는 아직 없음";
+                return false;
+            }
+        }
+
+        private static bool DBInsert(int parkingSpot, ref string contents)
+        {
+            if (DBHelper.dt.Rows.Count == 0)
+            {
+                DBHelper.insertQuery(parkingSpot);
+                contents = $"주차공간 {parkingSpot}이/가 추가되었습니다.";
+                return true;
+            }
+            else
+            {
+                contents = $"{parkingSpot} 주차 공간 이미 존재합니다.";
+                return false;
             }
         }
     }

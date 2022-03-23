@@ -11,7 +11,7 @@ namespace myCarManager
     public class DBHelper
     {
         private static SqlConnection conn = new SqlConnection();
-        public static SqlDataAdapter da;
+        public static SqlDataAdapter da = new SqlDataAdapter();
         public static DataSet ds;
         public static DataTable dt;
 
@@ -30,6 +30,7 @@ namespace myCarManager
         {
             ConnectDB();
             SqlCommand cmd = new SqlCommand();
+            cmd.Connection = conn;
             try
             {
                 if (parkingSpot < 0)

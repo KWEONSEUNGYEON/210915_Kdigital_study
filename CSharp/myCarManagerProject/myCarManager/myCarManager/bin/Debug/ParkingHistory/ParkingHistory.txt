@@ -1,0 +1,34 @@
+   위치: System.Data.Common.DbDataAdapter.GetConnection3(DbDataAdapter adapter, IDbCommand command, String method)
+   위치: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   위치: myCarManager.DBHelper.selectQuery(Int32 parkingSpot) 파일 C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\myCarManagerProject\myCarManager\myCarManager\DBHelper.cs:줄 41
+   위치: System.Data.DataTableCollection.get_Item(Int32 index)
+   위치: myCarManager.DataManager.Load() 파일 C:\Users\dduny\OneDrive\문서\GitHub\210915_Kdigital_study\CSharp\myCarManagerProject\myCarManager\myCarManager\DataManager.cs:줄 26
+[2022-03-16 10:57:46.199]초창기 데이터 없음. 주차 공간을 하나 이상 생성하세요.
+[2022-03-16 11:12:59.234]주차공간 1에서 차가 출차했습니다.
+[2022-03-16 11:13:11.895]주차공간 1은(는) 없습니다.
+[2022-03-16 11:13:17.303]주차공간 6은(는) 없습니다.
+[2022-03-16 11:16:05.383]주차공간 1에 dd차를 주차했습니다.
+[2022-03-16 11:16:13.007]주차공간 1에서 dd차가 출차했습니다.
+[2022-03-16 11:16:34.577]주차공간 2에서 차가 출차했습니다.
+[2022-03-16 11:16:38.311]주차공간 3에서 차가 출차했습니다.
+[2022-03-16 11:16:43.912]주차공간 4에서 차가 출차했습니다.
+[2022-03-16 11:16:48.130]주차공간 5에서 차가 출차했습니다.
+[2022-03-16 11:17:09.104]주차공간 1에 55보4150차를 주차했습니다.
+[2022-03-16 11:43:45.054]주차공간 2에 55보4150차를 주차했습니다.
+[2022-03-16 11:43:48.716]주차 공간 1에 주차되어 있는 차는 1입니다.
+[2022-03-16 11:44:00.147]a 값은 잘못되었습니다.
+[2022-03-16 11:44:03.141]주차 공간 2에 주차되어 있는 차는 2입니다.
+[2022-03-16 11:44:34.870]주차 공간 1에 주차되어 있는 차는 55보4150입니다.
+[2022-03-16 11:44:39.262]주차 공간 2에 주차되어 있는 차는 55보4150입니다.
+[2022-03-16 12:06:59.389]1 주차 공간 이미 존재합니다.
+[2022-03-16 12:07:02.759]주차공간 6이/가 추가되었습니다.
+[2022-03-16 12:07:15.571]6 번호는 아직 없음
+[2022-03-16 12:07:30.882]주차공간 2이/가 삭제되었습니다.
+[2022-03-16 12:07:32.868]주차공간 2이/가 추가되었습니다.
+[2022-03-16 12:09:27.186]주차공간 6이/가 추가되었습니다.
+[2022-03-16 12:09:32.933]주차공간 6이/가 삭제되었습니다.
+[2022-03-16 12:09:48.119]주차공간 6은(는) 없습니다.
+[2022-03-16 12:09:51.552]주차공간 6이/가 추가되었습니다.
+[2022-03-16 12:09:53.425]주차공간 6에 55보4150차를 주차했습니다.
